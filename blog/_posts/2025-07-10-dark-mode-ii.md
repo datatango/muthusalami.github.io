@@ -22,4 +22,4 @@ The fix:
 
 * Apply dark mode to <html> instead of <body> by adding an inline script at the top of head.html
 * Update dark mode styles to target html.darkmode.body
-* Update dark mode JavaScript document.documentElement.classList.add("darkmode"); instead of document.body.classList.add("darkmode");
+* Update dark mode JavaScript <code>document.documentElement.classList.add("darkmode");</code> instead of <code>document.body.classList.add("darkmode");</code>
