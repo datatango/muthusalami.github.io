@@ -12,7 +12,7 @@ image:
   feature:
 ---
 
-![darkmode_fouc](/assets/originals/darkmode_ii/darkmode_ii.gif)
+![darkmode_fouc]({{ site.url }}/assets/originals/darkmode_ii/darkmode_ii.gif)
 
 As it turns out, the implementation of the site's dark mode was plagued with FOUC. As illustrated, 'light mode' would flash during navigation between pages while in 'dark mode'. Yuck.
 

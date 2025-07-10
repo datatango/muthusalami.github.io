@@ -12,7 +12,7 @@ image:
   feature:
 ---
 
-![cuny_1](/assets/originals/cuny/1.jpg)
+![cuny_1]({{ site.url }}/assets/originals/cuny/1.jpg)
 
 ![cuny_2]({{ site.url }}/assets/originals/cuny/2.jpg)
 
