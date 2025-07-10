@@ -20,7 +20,7 @@
   />
 
   <title>
-     Getting .mp4 Files with yt-dlp
+     Blog
     &middot; Matthew Yang | Digital & Media Preservationist 
   </title>
 
@@ -102,19 +102,73 @@
 
     <div class="container content">
       <main>
-        <article class="post">
-  <h1 class="post-title">Getting .mp4 Files with yt-dlp</h1>
-  <time datetime="2023-09-24T00:00:00-05:00" class="post-date"
-    >24 Sep 2023</time
+        <div class="posts">
+  
+  <article class="post">
+    <h1 class="post-title">
+      <a href="/blog/2020/07/08/first-post/"> Hello World! </a>
+    </h1>
+
+    <time datetime="2020-07-08T00:00:00-05:00" class="post-date"
+      >08 Jul 2020</time
+    >
+
+     <p>The website is <em>finally</em> up and here is my first post!</p>
+
+<p>I’ve been meaning to create a work site for awhile now and I’ve finally taken up the challenge after attending GA’s Intro to Coding: HTML &amp; CSS Workshop. It was a short webinar that covered the fundamentals, which taught me enough to take the plunge.</p>
+
+<p>So here it is!</p>
+
+<p>I initially considered Wordpress for its wide usage but ultimately chose a static site generator like <strong>Jekyll</strong> for its quick deployment and little complexity. Static sites can be hosted directly on <strong>GitHub</strong> through <a href="https://pages.github.com/" target="\_ blank">GitHub pages</a>. That means no hosting fees (!!!) and easy management of edits, thanks to versioning (which I’m still discovering).</p>
+
+<h3 id="things-ive-learned-and-done-so-far">Things I’ve learned and done so far</h3>
+
+<ul>
+  <li>How to purchase a domain <a href="https://namecheap.com/" target="\_ blank">(namecheap)</a> and point it to the host (<strong>GitHub</strong>)</li>
+  <li>Discovered <strong>GitHub</strong> Desktop</li>
+  <li>Better understand <strong>GitHub</strong> as a platform and its functions</li>
+  <li>Set-up and create a simple <strong>Jekyll</strong> site and host it on <strong>GitHub</strong></li>
+  <li>How to host the site locally for testing</li>
+  <li>How to maintain the entire project on <strong>Atom</strong></li>
+</ul>
+
+<p>There were some issues along the way, so I wouldn’t say it was an easy ride. Fortunately, nothing is too difficult for Google &amp; Stack Overflow. I’ve learned plenty so far but there is still much to do and learn. I’ll update this page as I go along.</p>
+
+<p><strong>Note:</strong></p>
+
+<p>Command to run Jekyll site locally</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">bundle</span> <span class="nt">exec</span> <span class="nt">jekyll</span> <span class="nt">serve</span></code></pre></figure>
+
+<p>Passing the –livereload option to serve will automatically refresh the page with each change to the source file.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">bundle</span> <span class="nt">exec</span> <span class="nt">jekyll</span> <span class="nt">serve</span> <span class="nt">--livereload</span></code></pre></figure>
+
+ 
+  </article>
+  
+</div>
+
+<div class="pagination">
+  
+  <span class="pagination-item">
+    <i class="fa-regular fa-circle-left"></i>
+    <span class="pagination-text">older posts</span>
+  </span>
+  
+
+  <!-- <a class="pagination-item" href="#">archive</a> -->
+
+  
+  <a
+    class="pagination-item"
+    href="/blog/7"
   >
-  <p><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> is an excellent tool for pulling video files off YouTube, however its default file output is .webm.</p>
-
-<p>The following command will try to pull a native .mp4 file off YouTube and will do necessary transcoding if that fails after downloading.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yt-dlp <span class="nt">-S</span> res,ext:mp4:m4a <span class="nt">--recode</span> mp4 https://www.youtube.com/watch?v<span class="o">=</span>dQw4w9WgXcQ
-</code></pre></div></div>
-
-</article>
+    <span class="pagination-text">newer posts</span>
+    <i class="fa-regular fa-circle-right"></i>
+  </a>
+  
+</div>
 
       </main>
 

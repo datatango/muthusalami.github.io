@@ -106,6 +106,24 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2023/10/20/pdftk/"> Tool to Combine PDF Files </a>
+    </h1>
+
+    <time datetime="2023-10-20T00:00:00-05:00" class="post-date"
+      >20 Oct 2023</time
+    >
+
+     <p>PDF toolkit is a great PC tool for splitting and merging PDF files. It is free and has a GUI and CLI verison.</p>
+
+<p>I use it frequently to merge PDFs and use the command below.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdftk.exe *.pdf cat output combined.pdf
+</code></pre></div></div>
+ 
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2023/10/17/ocr/"> OCR to produce .srt subtitles </a>
     </h1>
 
@@ -203,24 +221,6 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
   </article>
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2023/09/24/yt-dlp-command/"> Getting .mp4 Files with yt-dlp </a>
-    </h1>
-
-    <time datetime="2023-09-24T00:00:00-05:00" class="post-date"
-      >24 Sep 2023</time
-    >
-
-     <p><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> is an excellent tool for pulling video files off YouTube, however its default file output is .webm.</p>
-
-<p>The following command will try to pull a native .mp4 file off YouTube and will do necessary transcoding if that fails after downloading.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yt-dlp <span class="nt">-S</span> res,ext:mp4:m4a <span class="nt">--recode</span> mp4 https://www.youtube.com/watch?v<span class="o">=</span>dQw4w9WgXcQ
-</code></pre></div></div>
- 
-  </article>
-  
 </div>
 
 <div class="pagination">
@@ -251,7 +251,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-10T11:34:34-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>

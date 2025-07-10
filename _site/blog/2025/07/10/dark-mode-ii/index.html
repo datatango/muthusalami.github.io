@@ -20,7 +20,7 @@
   />
 
   <title>
-     Getting .mp4 Files with yt-dlp
+     Dark Mode Pt. II&#58; Flash of Unstyled Content (FOUC)
     &middot; Matthew Yang | Digital & Media Preservationist 
   </title>
 
@@ -103,16 +103,23 @@
     <div class="container content">
       <main>
         <article class="post">
-  <h1 class="post-title">Getting .mp4 Files with yt-dlp</h1>
-  <time datetime="2023-09-24T00:00:00-05:00" class="post-date"
-    >24 Sep 2023</time
+  <h1 class="post-title">Dark Mode Pt. II&#58; Flash of Unstyled Content (FOUC)</h1>
+  <time datetime="2025-07-10T00:00:00-05:00" class="post-date"
+    >10 Jul 2025</time
   >
-  <p><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> is an excellent tool for pulling video files off YouTube, however its default file output is .webm.</p>
+  <p><img src="http://localhost:4000/assets/originals/darkmode_ii/darkmode_ii.gif" alt="darkmode_fouc" /></p>
 
-<p>The following command will try to pull a native .mp4 file off YouTube and will do necessary transcoding if that fails after downloading.</p>
+<p>As it turns out, the implementation of the site’s dark mode was plagued with FOUC. As illustrated, ‘light mode’ would flash during navigation between pages while in ‘dark mode’. Yuck.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yt-dlp <span class="nt">-S</span> res,ext:mp4:m4a <span class="nt">--recode</span> mp4 https://www.youtube.com/watch?v<span class="o">=</span>dQw4w9WgXcQ
-</code></pre></div></div>
+<p>The issue lies where the ‘darkmode’ class is applied to &lt;body&gt; after the page fully loads. Hence the browser renders the default light theme during the time between page load and the dark theme’s script execution.</p>
+
+<p>The fix:</p>
+
+<ul>
+  <li>Apply dark mode to &lt;html&gt; instead of &lt;body&gt; by adding an inline script at the top of head.html</li>
+  <li>Update dark mode styles to target html.darkmode.body</li>
+  <li>Update dark mode JavaScript document.documentElement.classList.add(“darkmode”); instead of document.body.classList.add(“darkmode”);</li>
+</ul>
 
 </article>
 

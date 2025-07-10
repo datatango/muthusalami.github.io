@@ -106,6 +106,31 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2024/06/04/rclone-04062024/"> Back-up Google Drive With Rclone </a>
+    </h1>
+
+    <time datetime="2024-06-04T00:00:00-05:00" class="post-date"
+      >04 Jun 2024</time
+    >
+
+     <p><img src="http://localhost:4000/assets/originals/rclone/rclone.gif" alt="rclone" /></p>
+
+<p><a href="https://rclone.org/" target="\_ blank">Rclone</a> is a powerful command-line tool to sync files and directories to and from various cloud storage services (Azure, B2, S3, Google Cloud, etc.). It is also a great solution to download files off from Google Drive, which can be an incredibly frustrating experience when doing it manually through a web browser.</p>
+
+<p>It has been a lifesaver syncing my school’s Google Drive to my local machine for backup. Google Docs, Sheets, and Slides are handled pretty well; Google Docs are downloaded as Microsoft Word, Sheets in Microsoft Excel, and Slides in Microsoft Powerpoint, while retaining the document’s original formatting. So far so good. However, it is unable to process items like Google Forms.</p>
+
+<p>Rclone is available on Linux, MacOS, and Windows.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rclone copy <span class="nt">-P</span> remote-name: <span class="s2">"directory"</span> <span class="s2">"destination"</span>
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rclone copy <span class="nt">--drive-shared-with-me</span> remote-name:<span class="s2">"directory"</span> <span class="s2">"destination"</span>
+</code></pre></div></div>
+ 
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2024/03/08/orphans-landing-site/"> Orphans 2024 'Work & Play' Landing Site </a>
     </h1>
 
@@ -255,24 +280,6 @@ YouTube video guide <a href="https://www.youtube.com/watch?v=tnngVPg9kuw" target
  
   </article>
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2023/10/20/pdftk/"> Tool to Combine PDF Files </a>
-    </h1>
-
-    <time datetime="2023-10-20T00:00:00-05:00" class="post-date"
-      >20 Oct 2023</time
-    >
-
-     <p>PDF toolkit is a great PC tool for splitting and merging PDF files. It is free and has a GUI and CLI verison.</p>
-
-<p>I use it frequently to merge PDFs and use the command below.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdftk.exe *.pdf cat output combined.pdf
-</code></pre></div></div>
- 
-  </article>
-  
 </div>
 
 <div class="pagination">
@@ -303,7 +310,7 @@ YouTube video guide <a href="https://www.youtube.com/watch?v=tnngVPg9kuw" target
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-10T11:34:34-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>

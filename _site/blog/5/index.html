@@ -106,6 +106,24 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2023/09/24/yt-dlp-command/"> Getting .mp4 Files with yt-dlp </a>
+    </h1>
+
+    <time datetime="2023-09-24T00:00:00-05:00" class="post-date"
+      >24 Sep 2023</time
+    >
+
+     <p><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> is an excellent tool for pulling video files off YouTube, however its default file output is .webm.</p>
+
+<p>The following command will try to pull a native .mp4 file off YouTube and will do necessary transcoding if that fails after downloading.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yt-dlp <span class="nt">-S</span> res,ext:mp4:m4a <span class="nt">--recode</span> mp4 https://www.youtube.com/watch?v<span class="o">=</span>dQw4w9WgXcQ
+</code></pre></div></div>
+ 
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2023/09/10/umatic_earrings/"> Summer Craft Project&#58; U-matic Record Tab Earrings </a>
     </h1>
 
@@ -229,49 +247,6 @@
  
   </article>
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2023/01/17/google-analytics-for-github-pages/"> Google Analytics for GitHub Pages </a>
-    </h1>
-
-    <time datetime="2023-01-17T00:00:00-06:00" class="post-date"
-      >17 Jan 2023</time
-    >
-
-     <p>This post covers the set up of Google Analytics for GitHub Pages.</p>
-
-<p>1. Go to Google Analytics and create a Google Analytics account for the site you would like to track.</p>
-
-<p>2. Take note of the tracking ID and copy the code snippet provided that looks like the following:</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script
-  </span><span class="na">async</span>
-  <span class="na">src=</span><span class="s">"https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"</span>
-<span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;script&gt;</span>
-  <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">||</span> <span class="p">[];</span>
-  <span class="kd">function</span> <span class="nx">gtag</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">dataLayer</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);</span>
-  <span class="p">}</span>
-  <span class="nx">gtag</span><span class="p">(</span><span class="dl">"</span><span class="s2">js</span><span class="dl">"</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
-
-  <span class="nx">gtag</span><span class="p">(</span><span class="dl">"</span><span class="s2">config</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">UA-XXXXXXXXX-X</span><span class="dl">"</span><span class="p">);</span>
-<span class="nt">&lt;/script&gt;</span>
-</code></pre></div></div>
-
-<p start="3">3. Create a new .HTML file in the <em>_includes</em> folder that contains the code snippet and name it <strong>google_analytics.html</strong>.</p>
-
-<p>4. Add the following code to your default layout: _layouts/default.html.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-{% include google_analytics.html %}
-
-</code></pre></div></div>
-
-<p>fin</p>
- 
-  </article>
-  
 </div>
 
 <div class="pagination">
@@ -302,7 +277,7 @@
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-10T11:34:34-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>
