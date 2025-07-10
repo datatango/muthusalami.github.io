@@ -3,15 +3,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const darkModeToggle = document.querySelector("#dark-mode-toggle");
 
   const enableDarkMode = () => {
-    // add class dark mode to the body
-    document.body.classList.add("darkmode");
+    // add class dark mode to the html
+    document.documentElement.classList.add("darkmode");
     // update dark mode in the local storage
     localStorage.setItem("darkMode", "enabled");
   };
 
   const disableDarkMode = () => {
-    // remove class dark mode from the body
-    document.body.classList.remove("darkmode");
+    // remove class dark mode from the html
+    document.documentElement.classList.remove("darkmode");
     // update dark mode in the local storage
     localStorage.setItem("darkMode", "disabled");
   };

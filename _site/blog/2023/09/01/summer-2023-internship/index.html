@@ -2,6 +2,17 @@
 <html lang="en">
 
   <head>
+  <!-- Dark Mode -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("darkMode") === "enabled") {
+          document.documentElement.classList.add("darkmode");
+        }
+      } catch (e) {}
+    })();
+  </script>
+  
   <meta charset="UTF-8" />
   <meta
     name="viewport"
@@ -10,7 +21,7 @@
 
   <title>
      Summer 2023 Internships @ BAVC & Prelinger Archives
-    &middot; Matthew Yang | Digital Archivist & Media Preservationist 
+    &middot; Matthew Yang | Digital & Media Preservationist 
   </title>
 
   <link
@@ -45,10 +56,10 @@
   <link
     rel="alternate"
     type="application/atom+xml"
-    title="Matthew Yang | Digital Archivist & Media Preservationist"
+    title="Matthew Yang | Digital & Media Preservationist"
     href="/atom.xml"
   />
-
+  
   <!-- Google tag (gtag.js) -->
   <script
     async
@@ -93,7 +104,7 @@
       <main>
         <article class="post">
   <h1 class="post-title">Summer 2023 Internships @ BAVC & Prelinger Archives</h1>
-  <time datetime="2023-09-01T00:00:00-07:00" class="post-date"
+  <time datetime="2023-09-01T00:00:00-05:00" class="post-date"
     >01 Sep 2023</time
   >
   <p><img src="http://localhost:4000/assets/originals/summer/matt_bavc.jpeg" alt="prelinger" /></p>
@@ -118,14 +129,14 @@
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-03-27T12:30:11-07:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>
         <div class="ftr-links">
           <a class="social-link-item" target="_blank" href="mailto:matthewyangjiefeng@gmail.com?subject=Hello!">
           <a href="mailto:matthewyang@nyu.edu?subject=Hello!" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://github.com/muthusalami" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/datatango" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
           <a href="https://www.linkedin.com/in/matthewyang-sg/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="https://digipres.club/@matthew" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
           <a href="https://bsky.app/profile/datatango.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky"></i></a>

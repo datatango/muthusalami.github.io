@@ -6,6 +6,7 @@ title: work
 <h4>employment</h4>
 <br>
 
+| University of Chicago | Digital Preservation Specialist | Jul. 2025 - present |
 | CUNY TV - The City University of New York Television | Media Preservation Technician | Jun. 2024 - Aug. 2024 |
 | Asian Film Archive | Archive Officer | Jan. 2017 - Aug. 2022 |
 
@@ -13,14 +14,14 @@ title: work
 <h4>fellowships</h4>
 <br>
 
-| J. Paul Getty Trust (Getty Digital) | Collection & Content Management Systems Graduate Intern | Sep. 2024 - present |
+| J. Paul Getty Trust (Getty Digital) | Collection & Content Management Systems Graduate Intern | Sep. 2024 - Jun. 2025 |
 | Digital Preservation Outreach and Education Network (DPOE-N) | Research Fellow | Sep. 2022 - May 2024 |
 
 <br>
 <h4>internships</h4>
 <br>
 
-| Internet Archive | Software Engineering Intern | Jun. 2024 - present |
+| Internet Archive | Software Engineering Intern | Jun. 2024 - Jul. 2025 |
 | CUNY TV - The City University of New York Television | Audio Preservation Intern | Jan. 2024 - Jun. 2024 |
 | Cineric Inc. | Digital Restoration Intern | Sep. 2023 - Jan. 2024 |
 | Bay Area Video Coalition | Video Preservation Intern | Jun. 2023 - Aug. 2023 |

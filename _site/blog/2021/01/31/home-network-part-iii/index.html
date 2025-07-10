@@ -2,6 +2,17 @@
 <html lang="en">
 
   <head>
+  <!-- Dark Mode -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("darkMode") === "enabled") {
+          document.documentElement.classList.add("darkmode");
+        }
+      } catch (e) {}
+    })();
+  </script>
+  
   <meta charset="UTF-8" />
   <meta
     name="viewport"
@@ -10,7 +21,7 @@
 
   <title>
      Ubiquiti Home Network Part&#58; III
-    &middot; Matthew Yang | Digital Archivist & Media Preservationist 
+    &middot; Matthew Yang | Digital & Media Preservationist 
   </title>
 
   <link
@@ -45,10 +56,10 @@
   <link
     rel="alternate"
     type="application/atom+xml"
-    title="Matthew Yang | Digital Archivist & Media Preservationist"
+    title="Matthew Yang | Digital & Media Preservationist"
     href="/atom.xml"
   />
-
+  
   <!-- Google tag (gtag.js) -->
   <script
     async
@@ -93,7 +104,7 @@
       <main>
         <article class="post">
   <h1 class="post-title">Ubiquiti Home Network Part&#58; III</h1>
-  <time datetime="2021-01-31T00:00:00-08:00" class="post-date"
+  <time datetime="2021-01-31T00:00:00-06:00" class="post-date"
     >31 Jan 2021</time
   >
   <p>Today marks another major milestone for the Ubiquiti home network with the Fibre Termination Point (TP) finally installed! The OpenNet technicians decided to come two days before our scheduled appointment, but I was more than happy to accommodate to their request. I decided to relocate the TP from the living room to the service balcony to have it close to the network rack. Most households typically have the TP close to the TV consoles as it is common to use the router-modem provided by the ISPs, whom typically are the internet TV providers as well. The relocation involved drilling a new hole from the electrical riser into the kitchen to have a short run of cable straight to the desired location. I was initially quite nervous about the drilling as I didn’t want to puncture any pipes, but thankfully it went fine. All of the work was completed within 40 minutes but I was surprised that the task required a team of five men!</p>
@@ -112,14 +123,14 @@
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-03-27T12:30:11-07:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>
         <div class="ftr-links">
           <a class="social-link-item" target="_blank" href="mailto:matthewyangjiefeng@gmail.com?subject=Hello!">
           <a href="mailto:matthewyang@nyu.edu?subject=Hello!" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://github.com/muthusalami" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/datatango" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
           <a href="https://www.linkedin.com/in/matthewyang-sg/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="https://digipres.club/@matthew" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
           <a href="https://bsky.app/profile/datatango.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky"></i></a>

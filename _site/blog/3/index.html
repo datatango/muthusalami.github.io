@@ -2,6 +2,17 @@
 <html lang="en">
 
   <head>
+  <!-- Dark Mode -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("darkMode") === "enabled") {
+          document.documentElement.classList.add("darkmode");
+        }
+      } catch (e) {}
+    })();
+  </script>
+  
   <meta charset="UTF-8" />
   <meta
     name="viewport"
@@ -10,7 +21,7 @@
 
   <title>
      Blog
-    &middot; Matthew Yang | Digital Archivist & Media Preservationist 
+    &middot; Matthew Yang | Digital & Media Preservationist 
   </title>
 
   <link
@@ -45,10 +56,10 @@
   <link
     rel="alternate"
     type="application/atom+xml"
-    title="Matthew Yang | Digital Archivist & Media Preservationist"
+    title="Matthew Yang | Digital & Media Preservationist"
     href="/atom.xml"
   />
-
+  
   <!-- Google tag (gtag.js) -->
   <script
     async
@@ -98,7 +109,7 @@
       <a href="/blog/2024/03/08/orphans-landing-site/"> Orphans 2024 'Work & Play' Landing Site </a>
     </h1>
 
-    <time datetime="2024-03-08T00:00:00-08:00" class="post-date"
+    <time datetime="2024-03-08T00:00:00-06:00" class="post-date"
       >08 Mar 2024</time
     >
 
@@ -118,41 +129,10 @@
   
   <article class="post">
     <h1 class="post-title">
-      <a href="/blog/2024/03/03/al-aqsa/"> T-shirt Printing 2024 </a>
-    </h1>
-
-    <time datetime="2024-03-03T00:00:00-08:00" class="post-date"
-      >03 Mar 2024</time
-    >
-
-     <p><img src="http://localhost:4000/assets/originals/al-aqsa/1.jpg" alt="al-aqsa" /></p>
-
-<p><img src="http://localhost:4000/assets/originals/al-aqsa/2.jpg" alt="al-aqsa" /></p>
-
-<p><img src="http://localhost:4000/assets/originals/al-aqsa/3.jpg" alt="al-aqsa" /></p>
-
-<p><img src="http://localhost:4000/assets/originals/al-aqsa/4.jpg" alt="al-aqsa" /></p>
-
-<p><img src="http://localhost:4000/assets/originals/al-aqsa/5.jpg" alt="al-aqsa" /></p>
-
-<p>I have been meaning to go back into t-shirt printing after rediscovering cyanotype at my last summer internship.</p>
-
-<p>I thought of stamps and decided to print one from Palestine as I’ve been deeply concerned about the violence in Gaza.</p>
-
-<p>This stamp was issued in 1927 when Palestine was under civil administration of the British Mandate of Palestine. It depicts the dome of the Al-Aqsa mosque in Jerusalem, which is widely considered Islam’s third-holiest shrine. It was built between 691-692 CE and re-built between 1022-1023. Today, it is one of the world’s oldest surviving works of Islamic architecture.</p>
-
-<p>Israel controls all access to Al-Aqsa today and is reviewing possible curbs on access over the upcoming Ramadan fasting month. This compounds the clampdown it has placed on Palestinians in Gaza and beyond.</p>
-
-<p>All suffering must end immediately. On that end, I hope to one day send a postcard from Al-Aqsa.</p>
- 
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
       <a href="/blog/2024/02/01/fall-2023-internship/"> Fall 2023 Internship @ Cineric, Inc. </a>
     </h1>
 
-    <time datetime="2024-02-01T00:00:00-08:00" class="post-date"
+    <time datetime="2024-02-01T00:00:00-06:00" class="post-date"
       >01 Feb 2024</time
     >
 
@@ -171,7 +151,7 @@
       <a href="/blog/2023/12/17/data-tango/"> Data Tango&#58; Exploring Restic </a>
     </h1>
 
-    <time datetime="2023-12-17T00:00:00-08:00" class="post-date"
+    <time datetime="2023-12-17T00:00:00-06:00" class="post-date"
       >17 Dec 2023</time
     >
 
@@ -243,7 +223,7 @@ Cross-platform Compatibility
       <a href="/blog/2023/11/23/pi-player/"> Raspberry Pi As Media Player & Video Looper </a>
     </h1>
 
-    <time datetime="2023-11-23T00:00:00-08:00" class="post-date"
+    <time datetime="2023-11-23T00:00:00-06:00" class="post-date"
       >23 Nov 2023</time
     >
 
@@ -272,6 +252,24 @@ git clone https://github.com/adafruit/pi_video_looper.git
 
 <p>Full written guide <a href="https://core-electronics.com.au/guides/raspberry-pi-video-looper/" target="\_ blank">here</a>.
 YouTube video guide <a href="https://www.youtube.com/watch?v=tnngVPg9kuw" target="\_ blank">here</a>.</p>
+ 
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
+      <a href="/blog/2023/10/20/pdftk/"> Tool to Combine PDF Files </a>
+    </h1>
+
+    <time datetime="2023-10-20T00:00:00-05:00" class="post-date"
+      >20 Oct 2023</time
+    >
+
+     <p>PDF toolkit is a great PC tool for splitting and merging PDF files. It is free and has a GUI and CLI verison.</p>
+
+<p>I use it frequently to merge PDFs and use the command below.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdftk.exe *.pdf cat output combined.pdf
+</code></pre></div></div>
  
   </article>
   
@@ -305,14 +303,14 @@ YouTube video guide <a href="https://www.youtube.com/watch?v=tnngVPg9kuw" target
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-03-27T12:30:11-07:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>
         <div class="ftr-links">
           <a class="social-link-item" target="_blank" href="mailto:matthewyangjiefeng@gmail.com?subject=Hello!">
           <a href="mailto:matthewyang@nyu.edu?subject=Hello!" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://github.com/muthusalami" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/datatango" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
           <a href="https://www.linkedin.com/in/matthewyang-sg/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="https://digipres.club/@matthew" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
           <a href="https://bsky.app/profile/datatango.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky"></i></a>

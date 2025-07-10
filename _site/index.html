@@ -2,6 +2,17 @@
 <html lang="en">
 
   <head>
+  <!-- Dark Mode -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("darkMode") === "enabled") {
+          document.documentElement.classList.add("darkmode");
+        }
+      } catch (e) {}
+    })();
+  </script>
+  
   <meta charset="UTF-8" />
   <meta
     name="viewport"
@@ -9,7 +20,7 @@
   />
 
   <title>
-     Matthew Yang | Digital Archivist & Media Preservationist 
+     Matthew Yang | Digital & Media Preservationist 
   </title>
 
   <link
@@ -44,10 +55,10 @@
   <link
     rel="alternate"
     type="application/atom+xml"
-    title="Matthew Yang | Digital Archivist & Media Preservationist"
+    title="Matthew Yang | Digital & Media Preservationist"
     href="/atom.xml"
   />
-
+  
   <!-- Google tag (gtag.js) -->
   <script
     async
@@ -109,24 +120,14 @@
 
       <p>Hello!</p>
       <p>
-        I am a digital archivist, media preservationist, and technologist based
-        in Los Angeles. My work focuses on integrating and migrating museum and
-        archival collections, designing open-source data and media workflows for
-        cultural heritage preservation, and preserving web-based works.
+        I'm a digital and media preservationist and technologist based in Chicago. My work centers on integrating and migrating museum and archival collections, building open-source data and media workflows for cultural heritage preservation, and preserving web-based works.
       </p>
       <p>
-        Currently, I am the Collection & Content Management Systems Graduate
-        Intern at the J. Paul Getty Trust and the Software Engineering Intern at
-        the Internet Archive. At the Getty, I support its different programs in
-        digital preservation, time-based media conservation, and web archiving,
-        while at the Internet Archive, I develop bespoke tools to perform
-        quality assurance on web archives.
+        I currently am the Digital Preservation Specialist at the University of Chicago Library, where I contribute to UChicagoNode, an integrated digital collections platform bringing together digital materials from across the University.
       </p>
       <p>
-        Previously, I worked in digital preservation, film restoration, and
-        media preservation at the Asian Film Archive in Singapore and CUNY TV in
-        New York City. I have also completed internships at the Bay Area Video
-        Coalition (BAVC), Cineric Inc., CUNY TV, the New York Public Library,
+        Previously, I’ve worked in digital preservation, film restoration, and media preservation at institutions including the Asian Film Archive (Singapore), the J. Paul Getty Trust (Los Angeles), and CUNY TV (New York City). I have also completed internships at the Bay Area Video
+        Coalition (BAVC), Cineric Inc., Internet Archive, the New York Public Library (NYPL),
         and Prelinger Archives during my graduate studies in Moving Image
         Archiving and Preservation (MIAP) at the Tisch School of the Arts, New
         York University.
@@ -143,14 +144,14 @@
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-03-27T12:30:11-07:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>
         <div class="ftr-links">
           <a class="social-link-item" target="_blank" href="mailto:matthewyangjiefeng@gmail.com?subject=Hello!">
           <a href="mailto:matthewyang@nyu.edu?subject=Hello!" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://github.com/muthusalami" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/datatango" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
           <a href="https://www.linkedin.com/in/matthewyang-sg/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="https://digipres.club/@matthew" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
           <a href="https://bsky.app/profile/datatango.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky"></i></a>

@@ -2,6 +2,17 @@
 <html lang="en">
 
   <head>
+  <!-- Dark Mode -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("darkMode") === "enabled") {
+          document.documentElement.classList.add("darkmode");
+        }
+      } catch (e) {}
+    })();
+  </script>
+  
   <meta charset="UTF-8" />
   <meta
     name="viewport"
@@ -10,7 +21,7 @@
 
   <title>
      Blog
-    &middot; Matthew Yang | Digital Archivist & Media Preservationist 
+    &middot; Matthew Yang | Digital & Media Preservationist 
   </title>
 
   <link
@@ -45,10 +56,10 @@
   <link
     rel="alternate"
     type="application/atom+xml"
-    title="Matthew Yang | Digital Archivist & Media Preservationist"
+    title="Matthew Yang | Digital & Media Preservationist"
     href="/atom.xml"
   />
-
+  
   <!-- Google tag (gtag.js) -->
   <script
     async
@@ -95,28 +106,10 @@
   
   <article class="post">
     <h1 class="post-title">
-      <a href="/blog/2023/10/20/pdftk/"> Tool to Combine PDF Files </a>
-    </h1>
-
-    <time datetime="2023-10-20T00:00:00-07:00" class="post-date"
-      >20 Oct 2023</time
-    >
-
-     <p>PDF toolkit is a great PC tool for splitting and merging PDF files. It is free and has a GUI and CLI verison.</p>
-
-<p>I use it frequently to merge PDFs and use the command below.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdftk.exe *.pdf cat output combined.pdf
-</code></pre></div></div>
- 
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
       <a href="/blog/2023/10/17/ocr/"> OCR to produce .srt subtitles </a>
     </h1>
 
-    <time datetime="2023-10-17T00:00:00-07:00" class="post-date"
+    <time datetime="2023-10-17T00:00:00-05:00" class="post-date"
       >17 Oct 2023</time
     >
 
@@ -136,7 +129,7 @@
       <a href="/blog/2023/10/16/installing-tesseract/"> Installing Tesseract on Windows </a>
     </h1>
 
-    <time datetime="2023-10-16T00:00:00-07:00" class="post-date"
+    <time datetime="2023-10-16T00:00:00-05:00" class="post-date"
       >16 Oct 2023</time
     >
 
@@ -170,7 +163,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
       <a href="/blog/2023/10/03/browser-on-terminal-copy/"> Lynx and Links2 - Terminal Web Browsers </a>
     </h1>
 
-    <time datetime="2023-10-03T00:00:00-07:00" class="post-date"
+    <time datetime="2023-10-03T00:00:00-05:00" class="post-date"
       >03 Oct 2023</time
     >
 
@@ -199,7 +192,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
       <a href="/blog/2023/10/02/hmd/"> Home Movie Day Singapore & New York </a>
     </h1>
 
-    <time datetime="2023-10-02T00:00:00-07:00" class="post-date"
+    <time datetime="2023-10-02T00:00:00-05:00" class="post-date"
       >02 Oct 2023</time
     >
 
@@ -207,6 +200,24 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
 
 <p><img src="http://localhost:4000/assets/originals/hmd/hmd_sg_small.jpg" alt="hmd singapore" />
 <img src="http://localhost:4000/assets/originals/hmd/hmd_ny.jpg" alt="hmd new york" /></p>
+ 
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
+      <a href="/blog/2023/09/24/yt-dlp-command/"> Getting .mp4 Files with yt-dlp </a>
+    </h1>
+
+    <time datetime="2023-09-24T00:00:00-05:00" class="post-date"
+      >24 Sep 2023</time
+    >
+
+     <p><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> is an excellent tool for pulling video files off YouTube, however its default file output is .webm.</p>
+
+<p>The following command will try to pull a native .mp4 file off YouTube and will do necessary transcoding if that fails after downloading.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yt-dlp <span class="nt">-S</span> res,ext:mp4:m4a <span class="nt">--recode</span> mp4 https://www.youtube.com/watch?v<span class="o">=</span>dQw4w9WgXcQ
+</code></pre></div></div>
  
   </article>
   
@@ -240,14 +251,14 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-03-27T12:30:11-07:00">2025</time> Matthew Yang</span> &middot;
+            <span class="copyright"><i class="fa-regular fa-copyright"></i><time datetime="2025-07-09T18:54:14-05:00">2025</time> Matthew Yang</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></span>
             <span>and <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
         </small>
         <div class="ftr-links">
           <a class="social-link-item" target="_blank" href="mailto:matthewyangjiefeng@gmail.com?subject=Hello!">
           <a href="mailto:matthewyang@nyu.edu?subject=Hello!" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://github.com/muthusalami" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/datatango" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
           <a href="https://www.linkedin.com/in/matthewyang-sg/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="https://digipres.club/@matthew" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
           <a href="https://bsky.app/profile/datatango.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky"></i></a>

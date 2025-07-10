@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Matthew Yang | Digital Archivist & Media Preservationist</title>
+ <title>Matthew Yang | Digital & Media Preservationist</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2025-03-27T12:30:11-07:00</updated>
+ <updated>2025-07-09T18:54:14-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Matthew Yang</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Apple QuickTime MOV&#58; The Atomic File Format</title>
    <link href="http://localhost:4000/blog/2025/02/13/MOV-atoms/"/>
-   <updated>2025-02-13T00:00:00-08:00</updated>
+   <updated>2025-02-13T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2025/02/13/MOV-atoms</id>
    <content type="html">&lt;p&gt;A recent analysis of a Apple QuickTime .MOV file I conducted at work compelled me to write this post to discuss its file structure.&lt;/p&gt;
 
@@ -99,7 +99,7 @@
  <entry>
    <title>Mounting USB drives in WSL</title>
    <link href="http://localhost:4000/blog/2025/02/04/mount-usb/"/>
-   <updated>2025-02-04T00:00:00-08:00</updated>
+   <updated>2025-02-04T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2025/02/04/mount-usb</id>
    <content type="html">&lt;p&gt;I never realized WSL does not natively allow Windows users to access a USB drive in the system for reasons unknown to me.&lt;/p&gt;
 
@@ -122,7 +122,7 @@
  <entry>
    <title>Managing Python aliases on Windows</title>
    <link href="http://localhost:4000/blog/2024/12/27/python-aliases/"/>
-   <updated>2024-12-27T00:00:00-08:00</updated>
+   <updated>2024-12-27T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2024/12/27/python-aliases</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Python was not found but can be installed from the Microsoft Store: ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -146,7 +146,7 @@
  <entry>
    <title>Enabling Windows File Path Limit Beyond 260 Characters</title>
    <link href="http://localhost:4000/blog/2024/11/18/pip-error-copy/"/>
-   <updated>2024-11-18T00:00:00-08:00</updated>
+   <updated>2024-11-18T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2024/11/18/pip-error copy</id>
    <content type="html">&lt;p&gt;I was trying to install a Python package when I encountered the following error:&lt;/p&gt;
 
@@ -172,7 +172,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>CUNY TV Internship</title>
    <link href="http://localhost:4000/blog/2024/10/02/cuny-internship/"/>
-   <updated>2024-10-02T00:00:00-07:00</updated>
+   <updated>2024-10-02T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2024/10/02/cuny-internship</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cuny/1.jpg&quot; alt=&quot;cuny_1&quot; /&gt;&lt;/p&gt;
 
@@ -199,7 +199,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>Dark Mode</title>
    <link href="http://localhost:4000/blog/2024/08/19/dark-mode/"/>
-   <updated>2024-08-19T00:00:00-07:00</updated>
+   <updated>2024-08-19T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2024/08/19/dark-mode</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/darkmode/darkmode.gif&quot; alt=&quot;darkmode&quot; /&gt;&lt;/p&gt;
 
@@ -271,7 +271,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>NYU MIAP Magnet</title>
    <link href="http://localhost:4000/blog/2024/07/16/magnet/"/>
-   <updated>2024-07-16T00:00:00-07:00</updated>
+   <updated>2024-07-16T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2024/07/16/magnet</id>
    <content type="html">&lt;p&gt;I was thinking of a design for a commemorative magnet for my MIAP cohort and decided on a vectorscope’s signal output. For the uninitiated, a vectorscope is an instrument that measures and visualizes chrominance (color) information encoded in a video signal.&lt;/p&gt;
 
@@ -292,7 +292,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>DIY Laptop Sleeve</title>
    <link href="http://localhost:4000/blog/2024/07/08/laptop-sleeve-copy/"/>
-   <updated>2024-07-08T00:00:00-07:00</updated>
+   <updated>2024-07-08T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2024/07/08/laptop-sleeve copy</id>
    <content type="html">&lt;p&gt;My long overdue project to make a new laptop sleeve is finally complete. It was time to replace my old one that saw me through film school, undergrad, and grad school. The edges had frayed, and the corners of my computer had begun to peek out. I spent an entire Friday with Fin and Mist cutting, ironing, and sewing over lots of tea and watermelon. I learned a lot, and I am quite satisfied with the overall result.&lt;/p&gt;
 
@@ -317,7 +317,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>Sony Mavica MD7</title>
    <link href="http://localhost:4000/blog/2024/06/19/mavica-md7/"/>
-   <updated>2024-06-19T00:00:00-07:00</updated>
+   <updated>2024-06-19T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2024/06/19/mavica-md7</id>
    <content type="html">&lt;p&gt;I am gushing over my ‘new’ Sony Mavica FD7 camera that I recently got off Facebook Marketplace. It is one of the earlier digital cameras from Sony’s discontinued Mavica (Magnetic Video Camera) line that saves digital images on 3.5” 1.4 MiB 2HD floppy diskettes in DOS FAT12 format. AFAIK, the FD7 was released in 1997 with the FD5 model where the former boasts 10x optical zoom, while the later has a fixed focal length.&lt;/p&gt;
 
@@ -338,7 +338,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>Back-up Google Drive With Rclone</title>
    <link href="http://localhost:4000/blog/2024/06/04/rclone-04062024/"/>
-   <updated>2024-06-04T00:00:00-07:00</updated>
+   <updated>2024-06-04T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2024/06/04/rclone-04062024</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/rclone/rclone.gif&quot; alt=&quot;rclone&quot; /&gt;&lt;/p&gt;
 
@@ -359,7 +359,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>Orphans 2024 'Work & Play' Landing Site</title>
    <link href="http://localhost:4000/blog/2024/03/08/orphans-landing-site/"/>
-   <updated>2024-03-08T00:00:00-08:00</updated>
+   <updated>2024-03-08T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2024/03/08/orphans-landing-site</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/ofs/ofs_4.1.gif&quot; alt=&quot;ofs_3.0&quot; /&gt;&lt;/p&gt;
 
@@ -376,36 +376,9 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  </entry>
  
  <entry>
-   <title>T-shirt Printing 2024</title>
-   <link href="http://localhost:4000/blog/2024/03/03/al-aqsa/"/>
-   <updated>2024-03-03T00:00:00-08:00</updated>
-   <id>http://localhost:4000/blog/2024/03/03/al-aqsa</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/al-aqsa/1.jpg&quot; alt=&quot;al-aqsa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/al-aqsa/2.jpg&quot; alt=&quot;al-aqsa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/al-aqsa/3.jpg&quot; alt=&quot;al-aqsa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/al-aqsa/4.jpg&quot; alt=&quot;al-aqsa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/al-aqsa/5.jpg&quot; alt=&quot;al-aqsa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have been meaning to go back into t-shirt printing after rediscovering cyanotype at my last summer internship.&lt;/p&gt;
-
-&lt;p&gt;I thought of stamps and decided to print one from Palestine as I’ve been deeply concerned about the violence in Gaza.&lt;/p&gt;
-
-&lt;p&gt;This stamp was issued in 1927 when Palestine was under civil administration of the British Mandate of Palestine. It depicts the dome of the Al-Aqsa mosque in Jerusalem, which is widely considered Islam’s third-holiest shrine. It was built between 691-692 CE and re-built between 1022-1023. Today, it is one of the world’s oldest surviving works of Islamic architecture.&lt;/p&gt;
-
-&lt;p&gt;Israel controls all access to Al-Aqsa today and is reviewing possible curbs on access over the upcoming Ramadan fasting month. This compounds the clampdown it has placed on Palestinians in Gaza and beyond.&lt;/p&gt;
-
-&lt;p&gt;All suffering must end immediately. On that end, I hope to one day send a postcard from Al-Aqsa.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Fall 2023 Internship @ Cineric, Inc.</title>
    <link href="http://localhost:4000/blog/2024/02/01/fall-2023-internship/"/>
-   <updated>2024-02-01T00:00:00-08:00</updated>
+   <updated>2024-02-01T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2024/02/01/fall-2023-internship</id>
    <content type="html">&lt;p&gt;During my fall 2023 internship at Cineric, Inc., I learned the intricacies of the company’s comprehensive restoration workflow, gaining knowledge in film scanning, digital imaging technology, and color and data management. Assigned to various departments, I observed and shadowed the dedicated staff involved in restoring cinematic masterpieces like Michael Powell’s Peeping Tom (1966).&lt;/p&gt;
 
@@ -420,7 +393,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  <entry>
    <title>Data Tango&#58; Exploring Restic</title>
    <link href="http://localhost:4000/blog/2023/12/17/data-tango/"/>
-   <updated>2023-12-17T00:00:00-08:00</updated>
+   <updated>2023-12-17T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2023/12/17/data-tango</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/file_utility/restic.gif&quot; alt=&quot;restic&quot; /&gt;&lt;/p&gt;
 
@@ -488,7 +461,7 @@ Cross-platform Compatibility
  <entry>
    <title>Raspberry Pi As Media Player & Video Looper</title>
    <link href="http://localhost:4000/blog/2023/11/23/pi-player/"/>
-   <updated>2023-11-23T00:00:00-08:00</updated>
+   <updated>2023-11-23T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2023/11/23/pi-player</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/raspberry_pi/duck_pi.jpg&quot; alt=&quot;ducky and pi&quot; /&gt;&lt;/p&gt;
 
@@ -521,7 +494,7 @@ YouTube video guide &lt;a href=&quot;https://www.youtube.com/watch?v=tnngVPg9kuw
  <entry>
    <title>Tool to Combine PDF Files</title>
    <link href="http://localhost:4000/blog/2023/10/20/pdftk/"/>
-   <updated>2023-10-20T00:00:00-07:00</updated>
+   <updated>2023-10-20T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/10/20/pdftk</id>
    <content type="html">&lt;p&gt;PDF toolkit is a great PC tool for splitting and merging PDF files. It is free and has a GUI and CLI verison.&lt;/p&gt;
 
@@ -535,7 +508,7 @@ YouTube video guide &lt;a href=&quot;https://www.youtube.com/watch?v=tnngVPg9kuw
  <entry>
    <title>OCR to produce .srt subtitles</title>
    <link href="http://localhost:4000/blog/2023/10/17/ocr/"/>
-   <updated>2023-10-17T00:00:00-07:00</updated>
+   <updated>2023-10-17T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/10/17/ocr</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/ocr/ocr.gif&quot; alt=&quot;ocr&quot; /&gt;&lt;/p&gt;
 
@@ -551,7 +524,7 @@ YouTube video guide &lt;a href=&quot;https://www.youtube.com/watch?v=tnngVPg9kuw
  <entry>
    <title>Installing Tesseract on Windows</title>
    <link href="http://localhost:4000/blog/2023/10/16/installing-tesseract/"/>
-   <updated>2023-10-16T00:00:00-07:00</updated>
+   <updated>2023-10-16T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/10/16/installing-tesseract</id>
    <content type="html">&lt;p&gt;PyTesseract is a widely used open-source OCR engine for Python that read and recognizes text in images. It determines text lines that are fixed pitch and slices the words into characters based on the pitch. While it is known for its accuracy and versatility, it can be challenging to install it in a Windows environment.&lt;/p&gt;
 
@@ -581,7 +554,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Lynx and Links2 - Terminal Web Browsers</title>
    <link href="http://localhost:4000/blog/2023/10/03/browser-on-terminal-copy/"/>
-   <updated>2023-10-03T00:00:00-07:00</updated>
+   <updated>2023-10-03T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/10/03/browser-on-terminal copy</id>
    <content type="html">&lt;p&gt;Here are two simple and fun tools to browse the web with the terminal!&lt;/p&gt;
 
@@ -606,7 +579,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Home Movie Day Singapore & New York</title>
    <link href="http://localhost:4000/blog/2023/10/02/hmd/"/>
-   <updated>2023-10-02T00:00:00-07:00</updated>
+   <updated>2023-10-02T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/10/02/hmd </id>
    <content type="html">&lt;p&gt;I had the great pleasure of organizing and producing posters for two Home Movie Day events! Check it out!&lt;/p&gt;
 
@@ -618,7 +591,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Getting .mp4 Files with yt-dlp</title>
    <link href="http://localhost:4000/blog/2023/09/24/yt-dlp-command/"/>
-   <updated>2023-09-24T00:00:00-07:00</updated>
+   <updated>2023-09-24T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/09/24/yt-dlp-command</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/yt-dlp/yt-dlp&quot;&gt;yt-dlp&lt;/a&gt; is an excellent tool for pulling video files off YouTube, however its default file output is .webm.&lt;/p&gt;
 
@@ -632,7 +605,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Summer Craft Project&#58; U-matic Record Tab Earrings</title>
    <link href="http://localhost:4000/blog/2023/09/10/umatic_earrings/"/>
-   <updated>2023-09-10T00:00:00-07:00</updated>
+   <updated>2023-09-10T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/09/10/umatic_earrings</id>
    <content type="html">&lt;p&gt;I got crafty over the summer at the Bay Area Video Coalition (BAVC) and made these U-matic record tab earrings that were inspired by Crystal Sanchez!!&lt;/p&gt;
 
@@ -647,7 +620,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Summer 2023 Internships @ BAVC & Prelinger Archives</title>
    <link href="http://localhost:4000/blog/2023/09/01/summer-2023-internship/"/>
-   <updated>2023-09-01T00:00:00-07:00</updated>
+   <updated>2023-09-01T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/09/01/summer-2023-internship</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/summer/matt_bavc.jpeg&quot; alt=&quot;prelinger&quot; /&gt;&lt;/p&gt;
 
@@ -670,7 +643,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Spring 2023 Internship @ the New York Public Library</title>
    <link href="http://localhost:4000/blog/2023/06/01/spring-2023-internship/"/>
-   <updated>2023-06-01T00:00:00-07:00</updated>
+   <updated>2023-06-01T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2023/06/01/spring-2023-internship</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/nypl/nypl_1.jpeg&quot; alt=&quot;nypl&quot; /&gt;&lt;/p&gt;
 
@@ -687,7 +660,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Use scrcpy to Mirror Android Devices On Your Desktop</title>
    <link href="http://localhost:4000/blog/2023/01/27/scrcpy/"/>
-   <updated>2023-01-27T00:00:00-08:00</updated>
+   <updated>2023-01-27T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2023/01/27/scrcpy</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/scrcpy/scrcpy.gif&quot; alt=&quot;scrcpy demo&quot; /&gt;&lt;/p&gt;
 
@@ -741,7 +714,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Google Analytics for GitHub Pages</title>
    <link href="http://localhost:4000/blog/2023/01/17/google-analytics-for-github-pages/"/>
-   <updated>2023-01-17T00:00:00-08:00</updated>
+   <updated>2023-01-17T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2023/01/17/google-analytics-for-github-pages</id>
    <content type="html">&lt;p&gt;This post covers the set up of Google Analytics for GitHub Pages.&lt;/p&gt;
 
@@ -780,7 +753,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>2023 Website Refresh & Update</title>
    <link href="http://localhost:4000/blog/2023/01/16/new-site/"/>
-   <updated>2023-01-16T00:00:00-08:00</updated>
+   <updated>2023-01-16T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2023/01/16/new-site</id>
    <content type="html">&lt;p&gt;Hello&lt;/p&gt;
 
@@ -795,7 +768,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Ubiquiti Home Network Part&#58; III</title>
    <link href="http://localhost:4000/blog/2021/01/31/home-network-part-iii/"/>
-   <updated>2021-01-31T00:00:00-08:00</updated>
+   <updated>2021-01-31T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2021/01/31/home-network-part-iii</id>
    <content type="html">&lt;p&gt;Today marks another major milestone for the Ubiquiti home network with the Fibre Termination Point (TP) finally installed! The OpenNet technicians decided to come two days before our scheduled appointment, but I was more than happy to accommodate to their request. I decided to relocate the TP from the living room to the service balcony to have it close to the network rack. Most households typically have the TP close to the TV consoles as it is common to use the router-modem provided by the ISPs, whom typically are the internet TV providers as well. The relocation involved drilling a new hole from the electrical riser into the kitchen to have a short run of cable straight to the desired location. I was initially quite nervous about the drilling as I didn’t want to puncture any pipes, but thankfully it went fine. All of the work was completed within 40 minutes but I was surprised that the task required a team of five men!&lt;/p&gt;
 
@@ -812,7 +785,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  <entry>
    <title>Ubiquiti Home Network Part&#58; II</title>
    <link href="http://localhost:4000/blog/2021/01/20/home-network-part-ii/"/>
-   <updated>2021-01-20T00:00:00-08:00</updated>
+   <updated>2021-01-20T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2021/01/20/home-network-part-ii</id>
    <content type="html">&lt;p&gt;This post is all about setting up my Ubiquiti home network and will serve as a personal resource/journal for the various devices.&lt;/p&gt;
 
@@ -935,7 +908,7 @@ One Lan: &lt;em&gt;check&lt;/em&gt;&lt;/p&gt;
  <entry>
    <title>The Anatomy of a Digital File</title>
    <link href="http://localhost:4000/blog/2021/01/15/digital-file/"/>
-   <updated>2021-01-15T00:00:00-08:00</updated>
+   <updated>2021-01-15T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2021/01/15/digital-file</id>
    <content type="html">&lt;p&gt;I’ve always wondered what makes up a digital file and &lt;a href=&quot;https://twobitpreservation.com/&quot; target=&quot;\_ blank&quot;&gt;Nicole Martin&lt;/a&gt; has wonderfully written a detailed post about the zeros and ones that make up a digital file.&lt;/p&gt;
 
@@ -988,7 +961,7 @@ One Lan: &lt;em&gt;check&lt;/em&gt;&lt;/p&gt;
  <entry>
    <title>Managing Film Scans With FFmpeg</title>
    <link href="http://localhost:4000/blog/2020/11/13/play-scans/"/>
-   <updated>2020-11-13T00:00:00-08:00</updated>
+   <updated>2020-11-13T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2020/11/13/play-scans</id>
    <content type="html">&lt;p&gt;I have been trying to figure the best way to play and manage film scans and learned a bag of new tricks from &lt;a href=&quot;https://reto.ch/&quot; target=&quot;\_ blank&quot;&gt;reto.ch&lt;/a&gt;!&lt;/p&gt;
 
@@ -1062,7 +1035,7 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
  <entry>
    <title>Practical Tips&#58; Caring For Your Files and Data</title>
    <link href="http://localhost:4000/blog/2020/11/05/practical-tips/"/>
-   <updated>2020-11-05T00:00:00-08:00</updated>
+   <updated>2020-11-05T00:00:00-06:00</updated>
    <id>http://localhost:4000/blog/2020/11/05/practical-tips</id>
    <content type="html">&lt;p&gt;Managing digital data has become increasingly challenging and can be a daunting experience with the sheer volume of what can build up in a short period. Digital data is vulnerable and can be easily lost if not properly cared for. Hard drives fail, files get plagued by bit-rot, or it can get deleted by accident. Data loss is painful, and recovery (if even possible) is an expensive and stressful process. With the advancement of born-digital filmmaking technologies, we are generating more data than ever before and this poses a huge risk to the loss of our films if we do not start taking steps to care for the physical longevity of a work as it is being created.&lt;/p&gt;
 
@@ -1297,7 +1270,7 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
  <entry>
    <title>Creating a List of Files of a Directory With Command-line</title>
    <link href="http://localhost:4000/blog/2020/10/12/exporting-directories-cli/"/>
-   <updated>2020-10-12T00:00:00-07:00</updated>
+   <updated>2020-10-12T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2020/10/12/exporting-directories-cli</id>
    <content type="html">&lt;p&gt;I recently had to provide a list of files in a USB thumbdrive/stick and learned a sweet trick via CLI. This method provides a text, &lt;em&gt;Word&lt;/em&gt; or &lt;em&gt;Excel&lt;/em&gt; file that lists all the files and folders inside a specific directory within your computer.&lt;/p&gt;
 
@@ -1351,7 +1324,7 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
  <entry>
    <title>Understanding the YUV (YCbCr) Colour Encoding System</title>
    <link href="http://localhost:4000/blog/2020/10/11/understanding-yuv/"/>
-   <updated>2020-10-11T00:00:00-07:00</updated>
+   <updated>2020-10-11T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2020/10/11/understanding-yuv</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/YUV/YUV.png&quot; alt=&quot;YUV chart&quot; /&gt;&lt;/p&gt;
 
@@ -1389,7 +1362,7 @@ Specifically the Red&lt;/p&gt;
  <entry>
    <title>Ubiquiti Home Network Part&#58; I</title>
    <link href="http://localhost:4000/blog/2020/09/14/home-network-part-i/"/>
-   <updated>2020-09-14T00:00:00-07:00</updated>
+   <updated>2020-09-14T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2020/09/14/home-network-part-i</id>
    <content type="html">&lt;p&gt;This post will be part of a series documenting the network setup of my new apartment. The apartment is over 20 years old hence a major overhaul is required and the renovation is a great opportunity to lay CAT6A in the house for the 1Gbps/10Gbps network 🤓.&lt;/p&gt;
 
@@ -1435,7 +1408,7 @@ Specifically the Red&lt;/p&gt;
  <entry>
    <title>Hello World!</title>
    <link href="http://localhost:4000/blog/2020/07/08/first-post/"/>
-   <updated>2020-07-08T00:00:00-07:00</updated>
+   <updated>2020-07-08T00:00:00-05:00</updated>
    <id>http://localhost:4000/blog/2020/07/08/first-post</id>
    <content type="html">&lt;p&gt;The website is &lt;em&gt;finally&lt;/em&gt; up and here is my first post!&lt;/p&gt;
 

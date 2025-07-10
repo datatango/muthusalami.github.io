@@ -1,85 +1,90 @@
 /* _darkmode.scss */
 
-body.darkmode .highlight {
+html.darkmode body {
+  background-color: #111;
+  color: #eee;
+  border-top: 5px solid #03dac6;
+}
+
+html.darkmode body .highlight {
   background-color: #1d2f4a;
 }
 
-body.darkmode {
-  border-top: 5px solid #03dac6;
+html.darkmode body {
   background-color: #1e1e1e;
   color: #ffffff;
 }
 
-body.darkmode strong,
-body.darkmode b,
-body.darkmode .bold {
+html.darkmode body strong,
+html.darkmode body b,
+html.darkmode body .bold {
   color: #ffffff;
 }
 
-body.darkmode .content .page-title,
-body.darkmode .page-title,
-body.darkmode .post-title,
-body.darkmode .post-title a,
-body.darkmode h2,
-body.darkmode h3,
-body.darkmode h4 {
+html.darkmode body .content .page-title,
+html.darkmode body .page-title,
+html.darkmode body .post-title,
+html.darkmode body .post-title a,
+html.darkmode body h2,
+html.darkmode body h3,
+html.darkmode body h4 {
   color: #bbf6ac;
 }
 
-body.darkmode .message,
-body.darkmode .container,
-body.darkmode .content,
-body.darkmode .footer,
-body.darkmode .nav-main {
+html.darkmode body .message,
+html.darkmode body .container,
+html.darkmode body .content,
+html.darkmode body .footer,
+html.darkmode body .nav-main {
   background-color: #1e1e1e;
 }
 
-body.darkmode .nav-main ul {
+html.darkmode body .nav-main ul {
   border-bottom-color: #ffffff;
 }
 
-body.darkmode .nav-main li a,
-body.darkmode .nav-main li.logo a,
-body.darkmode .nav-main .dark-mode-toggle,
-body.darkmode .footer,
-body.darkmode .container,
-body.darkmode .content {
+html.darkmode body .nav-main li a,
+html.darkmode body .nav-main li.logo a,
+html.darkmode body .nav-main .dark-mode-toggle,
+html.darkmode body .footer,
+html.darkmode body .container,
+html.darkmode body .content {
   color: #ffffff;
 }
 
-body.darkmode .footer a,
-body.darkmode .content .page-title {
+html.darkmode body .footer a,
+html.darkmode body .content .page-title {
   color: #03dac6;
 }
 
-body.darkmode .hvr-underline-reveal {
+html.darkmode body .hvr-underline-reveal {
   position: relative;
   display: inline-block;
 }
 
-body.darkmode .hvr-underline-reveal::before {
+html.darkmode body .hvr-underline-reveal::before {
   background-color: #bbf6ac;
 }
 
-body.darkmode img {
+html.darkmode body img {
   border-radius: 5px;
 }
 
-body.darkmode html {
+html.darkmode body html {
   color: #ffffff;
 }
 
 /* Set color for the right circle icon in dark mode */
-body.darkmode .fa-regular.fa-circle-right {
+html.darkmode body .fa-regular.fa-circle-right {
   color: #03dac6;
 }
 
 /* Set color for the left circle icon in dark mode */
-body.darkmode .fa-regular.fa-circle-left {
+html.darkmode body .fa-regular.fa-circle-left {
   color: #03dac6;
 }
 
 /* Set color for the "older posts" text in dark mode */
-body.darkmode .pagination-text {
+html.darkmode body .pagination-text {
   color: #03dac6;
 }
