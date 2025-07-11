@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Matthew Yang | Digital & Media Preservationist</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000"/>
- <updated>2025-07-11T16:13:45-05:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://matthewyang.io/atom.xml" rel="self"/>
+ <link href="https://matthewyang.io"/>
+ <updated>2025-07-11T16:23:11-05:00</updated>
+ <id>https://matthewyang.io</id>
  <author>
    <name>Matthew Yang</name>
    <email>matthewyang@nyu.edu</email>
@@ -14,10 +14,10 @@
  
  <entry>
    <title>Dark Mode Pt. II&#58; Flash of Unstyled Content (FOUC)</title>
-   <link href="http://localhost:4000/blog/2025/07/10/dark-mode-ii/"/>
+   <link href="https://matthewyang.io/blog/2025/07/10/dark-mode-ii/"/>
    <updated>2025-07-10T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2025/07/10/dark-mode-ii</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/darkmode_ii/darkmode_ii.gif&quot; alt=&quot;darkmode_fouc&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2025/07/10/dark-mode-ii</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/darkmode_ii/darkmode_ii.gif&quot; alt=&quot;darkmode_fouc&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As it turns out, the implementation of the site’s dark mode was plagued by a Flash of Unstyled Content (FOUC). As illustrated, light mode would flash during navigation between pages while in dark mode. Yuck.&lt;/p&gt;
 
@@ -35,9 +35,9 @@
  
  <entry>
    <title>Apple QuickTime MOV&#58; The Atomic File Format</title>
-   <link href="http://localhost:4000/blog/2025/02/13/MOV-atoms/"/>
+   <link href="https://matthewyang.io/blog/2025/02/13/MOV-atoms/"/>
    <updated>2025-02-13T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2025/02/13/MOV-atoms</id>
+   <id>https://matthewyang.io/blog/2025/02/13/MOV-atoms</id>
    <content type="html">&lt;p&gt;A recent analysis of a Apple QuickTime .MOV file I conducted at work compelled me to write this post to discuss its file structure.&lt;/p&gt;
 
 &lt;p&gt;Released in 1991, Apple QuickTime .MOV files are structured by hierarchical atoms that store media data and metadata. A typical .MOV file may consist of the following atoms:&lt;/p&gt;
@@ -119,9 +119,9 @@
  
  <entry>
    <title>Mounting USB drives in WSL</title>
-   <link href="http://localhost:4000/blog/2025/02/04/mount-usb/"/>
+   <link href="https://matthewyang.io/blog/2025/02/04/mount-usb/"/>
    <updated>2025-02-04T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2025/02/04/mount-usb</id>
+   <id>https://matthewyang.io/blog/2025/02/04/mount-usb</id>
    <content type="html">&lt;p&gt;I never realized WSL does not natively allow Windows users to access a USB drive in the system for reasons unknown to me.&lt;/p&gt;
 
 &lt;p&gt;However, it can be configured.&lt;/p&gt;
@@ -142,9 +142,9 @@
  
  <entry>
    <title>Managing Python aliases on Windows</title>
-   <link href="http://localhost:4000/blog/2024/12/27/python-aliases/"/>
+   <link href="https://matthewyang.io/blog/2024/12/27/python-aliases/"/>
    <updated>2024-12-27T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2024/12/27/python-aliases</id>
+   <id>https://matthewyang.io/blog/2024/12/27/python-aliases</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Python was not found but can be installed from the Microsoft Store: ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -158,7 +158,7 @@
 
 &lt;h3 id=&quot;step-2-toggle-off-pythonexe--python3exe&quot;&gt;Step 2: Toggle off ‘python.exe’ &amp;amp; ‘python3.exe’&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/alias/alias.png&quot; alt=&quot;cuny_4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/alias/alias.png&quot; alt=&quot;cuny_4&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A further step is to put ‘%USERPROFILE%\AppData\Local\Microsoft\WindowsApps’ lower in the pecking order in Environment Variables.&lt;/p&gt;
 </content>
@@ -166,9 +166,9 @@
  
  <entry>
    <title>Enabling Windows File Path Limit Beyond 260 Characters</title>
-   <link href="http://localhost:4000/blog/2024/11/18/pip-error-copy/"/>
+   <link href="https://matthewyang.io/blog/2024/11/18/pip-error-copy/"/>
    <updated>2024-11-18T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2024/11/18/pip-error copy</id>
+   <id>https://matthewyang.io/blog/2024/11/18/pip-error copy</id>
    <content type="html">&lt;p&gt;I was trying to install a Python package when I encountered the following error:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\Users\MATT-THINKPAD\OneDrive - nyu.edu\Documents\fido-1.6.1\fido-1.6.1&amp;gt;pip install setuptools
@@ -192,18 +192,18 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  
  <entry>
    <title>CUNY TV Internship</title>
-   <link href="http://localhost:4000/blog/2024/10/02/cuny-internship/"/>
+   <link href="https://matthewyang.io/blog/2024/10/02/cuny-internship/"/>
    <updated>2024-10-02T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2024/10/02/cuny-internship</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cuny/1.jpg&quot; alt=&quot;cuny_1&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2024/10/02/cuny-internship</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/cuny/1.jpg&quot; alt=&quot;cuny_1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cuny/2.jpg&quot; alt=&quot;cuny_2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/cuny/2.jpg&quot; alt=&quot;cuny_2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cuny/3.jpg&quot; alt=&quot;cuny_3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/cuny/3.jpg&quot; alt=&quot;cuny_3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cuny/4.jpg&quot; alt=&quot;cuny_4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/cuny/4.jpg&quot; alt=&quot;cuny_4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cuny/5.jpg&quot; alt=&quot;cuny_5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/cuny/5.jpg&quot; alt=&quot;cuny_5&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What better way to conclude graduate school than to finish an internship at CUNY TV? Graduate school was always in my plans, but New York was never really in the picture because it just seemed beyond financial reach. But amongst other things, reading Annie Schweikert’s &amp;amp; Dave Rice’s IASA journal paper, &lt;a href=&quot;https://journal.iasa-web.org/index.php/pubs/article/view/70&quot; target=&quot;\_ blank&quot;&gt;&lt;em&gt;Microservices in Audiovisual Archives: An Exploration of Constructing Microservices for Processing Archival Audiovisual Information&lt;/em&gt;&lt;/a&gt;, made the decision for me.&lt;/p&gt;
 
@@ -219,10 +219,10 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  
  <entry>
    <title>Dark Mode</title>
-   <link href="http://localhost:4000/blog/2024/08/19/dark-mode/"/>
+   <link href="https://matthewyang.io/blog/2024/08/19/dark-mode/"/>
    <updated>2024-08-19T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2024/08/19/dark-mode</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/darkmode/darkmode.gif&quot; alt=&quot;darkmode&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2024/08/19/dark-mode</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/darkmode/darkmode.gif&quot; alt=&quot;darkmode&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I finally found some time to complete the site’s dark mode feature. As someone who uses dark mode a lot, I couldn’t put the feature off any longer. In theory, adding a dark mode feature is not complicated. However, it can be challenging in practice when integrating the feature into someone else’s code.&lt;/p&gt;
 
@@ -291,9 +291,9 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  
  <entry>
    <title>NYU MIAP Magnet</title>
-   <link href="http://localhost:4000/blog/2024/07/16/magnet/"/>
+   <link href="https://matthewyang.io/blog/2024/07/16/magnet/"/>
    <updated>2024-07-16T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2024/07/16/magnet</id>
+   <id>https://matthewyang.io/blog/2024/07/16/magnet</id>
    <content type="html">&lt;p&gt;I was thinking of a design for a commemorative magnet for my MIAP cohort and decided on a vectorscope’s signal output. For the uninitiated, a vectorscope is an instrument that measures and visualizes chrominance (color) information encoded in a video signal.&lt;/p&gt;
 
 &lt;p&gt;This particular signal pattern depicts the SMPTE color bar test pattern that is widely used for video calibration, per the NTSC standard. In this instance, the lines in the vectorscope measure the hue and saturation of the colors red, magenta, blue, cyan, green, and yellow in the bars.&lt;/p&gt;
@@ -302,66 +302,66 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
 
 &lt;p&gt;🇨🇳 🇮🇩 🇲🇽 🇸🇬 🇪🇸 🇹🇼 🇺🇸&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/magnet/1.jpg&quot; alt=&quot;magnet_1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/magnet/1.jpg&quot; alt=&quot;magnet_1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/magnet/2.jpg&quot; alt=&quot;magnet_2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/magnet/2.jpg&quot; alt=&quot;magnet_2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/magnet/4.jpg&quot; alt=&quot;magnet_4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/magnet/4.jpg&quot; alt=&quot;magnet_4&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>DIY Laptop Sleeve</title>
-   <link href="http://localhost:4000/blog/2024/07/08/laptop-sleeve-copy/"/>
+   <link href="https://matthewyang.io/blog/2024/07/08/laptop-sleeve-copy/"/>
    <updated>2024-07-08T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2024/07/08/laptop-sleeve copy</id>
+   <id>https://matthewyang.io/blog/2024/07/08/laptop-sleeve copy</id>
    <content type="html">&lt;p&gt;My long overdue project to make a new laptop sleeve is finally complete. It was time to replace my old one that saw me through film school, undergrad, and grad school. The edges had frayed, and the corners of my computer had begun to peek out. I spent an entire Friday with Fin and Mist cutting, ironing, and sewing over lots of tea and watermelon. I learned a lot, and I am quite satisfied with the overall result.&lt;/p&gt;
 
 &lt;p&gt;On to the next chapter!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/laptop/1.jpg&quot; alt=&quot;busted_sleeve&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/laptop/1.jpg&quot; alt=&quot;busted_sleeve&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/laptop/2.jpg&quot; alt=&quot;fin_working&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/laptop/2.jpg&quot; alt=&quot;fin_working&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/laptop/3.jpg&quot; alt=&quot;mist&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/laptop/3.jpg&quot; alt=&quot;mist&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/laptop/4.jpg&quot; alt=&quot;practice&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/laptop/4.jpg&quot; alt=&quot;practice&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/laptop/5.jpg&quot; alt=&quot;sleeve_in_progress&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/laptop/5.jpg&quot; alt=&quot;sleeve_in_progress&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/laptop/6.jpg&quot; alt=&quot;finished_sleeve&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/laptop/6.jpg&quot; alt=&quot;finished_sleeve&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/laptop/7.jpg&quot; alt=&quot;button_detail&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/laptop/7.jpg&quot; alt=&quot;button_detail&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Sony Mavica MD7</title>
-   <link href="http://localhost:4000/blog/2024/06/19/mavica-md7/"/>
+   <link href="https://matthewyang.io/blog/2024/06/19/mavica-md7/"/>
    <updated>2024-06-19T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2024/06/19/mavica-md7</id>
+   <id>https://matthewyang.io/blog/2024/06/19/mavica-md7</id>
    <content type="html">&lt;p&gt;I am gushing over my ‘new’ Sony Mavica FD7 camera that I recently got off Facebook Marketplace. It is one of the earlier digital cameras from Sony’s discontinued Mavica (Magnetic Video Camera) line that saves digital images on 3.5” 1.4 MiB 2HD floppy diskettes in DOS FAT12 format. AFAIK, the FD7 was released in 1997 with the FD5 model where the former boasts 10x optical zoom, while the later has a fixed focal length.&lt;/p&gt;
 
 &lt;p&gt;The camera produces .JPG images in 640x480 resolution with its 0.38 megapixel 1/4” CCD sensor. In terms of optics, it has a focal length range of 4.2 - 42mm, which is impressive for a camera of its size. The diskettes hold up to 40 .JPG images in its ‘normal’ setting and 20 images in its ‘fine’ setting. Each image takes up to 10 seconds to be recorded on the media and the process is accompanied by the sounds of the diskette’s whirring. Fun and amusing piece of technology.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/mavica/mavica_leaf.JPG&quot; alt=&quot;leaf&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/mavica/mavica_leaf.JPG&quot; alt=&quot;leaf&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/mavica/mavica_ducky.JPG&quot; alt=&quot;ducky&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/mavica/mavica_ducky.JPG&quot; alt=&quot;ducky&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/mavica/mavica_wsq.JPG&quot; alt=&quot;wsq&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/mavica/mavica_wsq.JPG&quot; alt=&quot;wsq&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/mavica/mavica_bobst.JPG&quot; alt=&quot;bobst&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/mavica/mavica_bobst.JPG&quot; alt=&quot;bobst&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/mavica/mavica_8st.JPG&quot; alt=&quot;8street&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/mavica/mavica_8st.JPG&quot; alt=&quot;8street&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Back-up Google Drive With Rclone</title>
-   <link href="http://localhost:4000/blog/2024/06/04/rclone-04062024/"/>
+   <link href="https://matthewyang.io/blog/2024/06/04/rclone-04062024/"/>
    <updated>2024-06-04T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2024/06/04/rclone-04062024</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/rclone/rclone.gif&quot; alt=&quot;rclone&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2024/06/04/rclone-04062024</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/rclone/rclone.gif&quot; alt=&quot;rclone&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://rclone.org/&quot; target=&quot;\_ blank&quot;&gt;Rclone&lt;/a&gt; is a powerful command-line tool to sync files and directories to and from various cloud storage services (Azure, B2, S3, Google Cloud, etc.). It is also a great solution to download files off from Google Drive, which can be an incredibly frustrating experience when doing it manually through a web browser.&lt;/p&gt;
 
@@ -379,14 +379,14 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  
  <entry>
    <title>Orphans 2024 'Work & Play' Landing Site</title>
-   <link href="http://localhost:4000/blog/2024/03/08/orphans-landing-site/"/>
+   <link href="https://matthewyang.io/blog/2024/03/08/orphans-landing-site/"/>
    <updated>2024-03-08T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2024/03/08/orphans-landing-site</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/ofs/ofs_4.1.gif&quot; alt=&quot;ofs_3.0&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2024/03/08/orphans-landing-site</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/ofs/ofs_4.1.gif&quot; alt=&quot;ofs_3.0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/ofs/ofs.png&quot; alt=&quot;ofs_2.0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/ofs/ofs.png&quot; alt=&quot;ofs_2.0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/ofs/mock_up.png&quot; alt=&quot;ofs_mockup&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/ofs/mock_up.png&quot; alt=&quot;ofs_mockup&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://wp.nyu.edu/orphanfilm/&quot; target=&quot;\_ blank&quot;&gt;Orphans Film Symposium 2024&lt;/a&gt; is around the corner and I had the wonderful opportunity to assist Professor Dan Streible to create a &lt;a href=&quot;https://wp.nyu.edu/orphans2024/&quot; target=&quot;\_ blank&quot;&gt;landing site&lt;/a&gt; for the symposium.&lt;/p&gt;
 
@@ -398,25 +398,25 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
  
  <entry>
    <title>Fall 2023 Internship @ Cineric, Inc.</title>
-   <link href="http://localhost:4000/blog/2024/02/01/fall-2023-internship/"/>
+   <link href="https://matthewyang.io/blog/2024/02/01/fall-2023-internship/"/>
    <updated>2024-02-01T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2024/02/01/fall-2023-internship</id>
+   <id>https://matthewyang.io/blog/2024/02/01/fall-2023-internship</id>
    <content type="html">&lt;p&gt;During my fall 2023 internship at Cineric, Inc., I learned the intricacies of the company’s comprehensive restoration workflow, gaining knowledge in film scanning, digital imaging technology, and color and data management. Assigned to various departments, I observed and shadowed the dedicated staff involved in restoring cinematic masterpieces like Michael Powell’s Peeping Tom (1966).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cineric/23f_yang_cineric_1.jpeg&quot; alt=&quot;cineric_1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/cineric/23f_yang_cineric_1.jpeg&quot; alt=&quot;cineric_1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cineric is a highly specialized lab with the capability to scan and restore obscure formats and severely deteriorated photographic materials. The highlight of my experience was delving into the world of wet-gate scanners, witnessing the seamless fusion of photo-chemical and digital technology. Notably, all scanners are bespoke creations by my internship supervisor, Simon Lund, the Director of Technical Operations. With 30 years of expertise, Cineric has developed its own liquid gate technology, producing custom gates to handle diverse formats. The company’s commitment to innovation is evident in the construction of a dedicated scanner for 35mm paper prints. This internship has been immensely enriching, and I extend my gratitude to Simon and the entire staff for their invaluable guidance and mentorship.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/cineric/23f_yang_cineric_2.jpg&quot; alt=&quot;cineric_1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/cineric/23f_yang_cineric_2.jpg&quot; alt=&quot;cineric_1&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Data Tango&#58; Exploring Restic</title>
-   <link href="http://localhost:4000/blog/2023/12/17/data-tango/"/>
+   <link href="https://matthewyang.io/blog/2023/12/17/data-tango/"/>
    <updated>2023-12-17T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2023/12/17/data-tango</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/file_utility/restic.gif&quot; alt=&quot;restic&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2023/12/17/data-tango</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/file_utility/restic.gif&quot; alt=&quot;restic&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What is restic?&lt;/p&gt;
 
@@ -481,12 +481,12 @@ Cross-platform Compatibility
  
  <entry>
    <title>Raspberry Pi As Media Player & Video Looper</title>
-   <link href="http://localhost:4000/blog/2023/11/23/pi-player/"/>
+   <link href="https://matthewyang.io/blog/2023/11/23/pi-player/"/>
    <updated>2023-11-23T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2023/11/23/pi-player</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/raspberry_pi/duck_pi.jpg&quot; alt=&quot;ducky and pi&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2023/11/23/pi-player</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/raspberry_pi/duck_pi.jpg&quot; alt=&quot;ducky and pi&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/raspberry_pi/bare_pi_hdmi.jpg&quot; alt=&quot;ducky and pi&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/raspberry_pi/bare_pi_hdmi.jpg&quot; alt=&quot;ducky and pi&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I needed a simple and elegant solution to playback digital videos for Home Movie Day 2022. I simply did not have budget for &lt;a href=&quot;https://www.brightsign.biz/&quot; target=&quot;\_ blank&quot;&gt;BrightSign&lt;/a&gt; players and I also did not want to deploy laptops onsite just to loop videos. Fortunately, Rasperry Pis came in as a great alternative.&lt;/p&gt;
 
@@ -514,9 +514,9 @@ YouTube video guide &lt;a href=&quot;https://www.youtube.com/watch?v=tnngVPg9kuw
  
  <entry>
    <title>Tool to Combine PDF Files</title>
-   <link href="http://localhost:4000/blog/2023/10/20/pdftk/"/>
+   <link href="https://matthewyang.io/blog/2023/10/20/pdftk/"/>
    <updated>2023-10-20T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/10/20/pdftk</id>
+   <id>https://matthewyang.io/blog/2023/10/20/pdftk</id>
    <content type="html">&lt;p&gt;PDF toolkit is a great PC tool for splitting and merging PDF files. It is free and has a GUI and CLI verison.&lt;/p&gt;
 
 &lt;p&gt;I use it frequently to merge PDFs and use the command below.&lt;/p&gt;
@@ -528,10 +528,10 @@ YouTube video guide &lt;a href=&quot;https://www.youtube.com/watch?v=tnngVPg9kuw
  
  <entry>
    <title>OCR to produce .srt subtitles</title>
-   <link href="http://localhost:4000/blog/2023/10/17/ocr/"/>
+   <link href="https://matthewyang.io/blog/2023/10/17/ocr/"/>
    <updated>2023-10-17T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/10/17/ocr</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/ocr/ocr.gif&quot; alt=&quot;ocr&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2023/10/17/ocr</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/ocr/ocr.gif&quot; alt=&quot;ocr&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I recently tinkered with Torbjørn Pedersen’s (National Library of Norway) Python script &lt;a href=&quot;https://github.com/UB-Mannheim/tesseract/wiki&quot; target=&quot;\_ blank&quot;&gt;video-ocr2srt&lt;/a&gt; to extract burnt-in English subtitles from a digital video. The script performs optical character recognition (OCR) on video files and generates a .srt subtitle file with a detailed JSON file.&lt;/p&gt;
 
@@ -544,9 +544,9 @@ YouTube video guide &lt;a href=&quot;https://www.youtube.com/watch?v=tnngVPg9kuw
  
  <entry>
    <title>Installing Tesseract on Windows</title>
-   <link href="http://localhost:4000/blog/2023/10/16/installing-tesseract/"/>
+   <link href="https://matthewyang.io/blog/2023/10/16/installing-tesseract/"/>
    <updated>2023-10-16T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/10/16/installing-tesseract</id>
+   <id>https://matthewyang.io/blog/2023/10/16/installing-tesseract</id>
    <content type="html">&lt;p&gt;PyTesseract is a widely used open-source OCR engine for Python that read and recognizes text in images. It determines text lines that are fixed pitch and slices the words into characters based on the pitch. While it is known for its accuracy and versatility, it can be challenging to install it in a Windows environment.&lt;/p&gt;
 
 &lt;h2 id=&quot;installation-steps&quot;&gt;Installation steps&lt;/h2&gt;
@@ -574,12 +574,12 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>Lynx and Links2 - Terminal Web Browsers</title>
-   <link href="http://localhost:4000/blog/2023/10/03/browser-on-terminal-copy/"/>
+   <link href="https://matthewyang.io/blog/2023/10/03/browser-on-terminal-copy/"/>
    <updated>2023-10-03T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/10/03/browser-on-terminal copy</id>
+   <id>https://matthewyang.io/blog/2023/10/03/browser-on-terminal copy</id>
    <content type="html">&lt;p&gt;Here are two simple and fun tools to browse the web with the terminal!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/lynx/lynx.png&quot; alt=&quot;lynx&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/lynx/lynx.png&quot; alt=&quot;lynx&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;lynx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -599,21 +599,21 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>Home Movie Day Singapore & New York</title>
-   <link href="http://localhost:4000/blog/2023/10/02/hmd/"/>
+   <link href="https://matthewyang.io/blog/2023/10/02/hmd/"/>
    <updated>2023-10-02T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/10/02/hmd </id>
+   <id>https://matthewyang.io/blog/2023/10/02/hmd </id>
    <content type="html">&lt;p&gt;I had the great pleasure of organizing and producing posters for two Home Movie Day events! Check it out!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/hmd/hmd_sg_small.jpg&quot; alt=&quot;hmd singapore&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/originals/hmd/hmd_ny.jpg&quot; alt=&quot;hmd new york&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/hmd/hmd_sg_small.jpg&quot; alt=&quot;hmd singapore&quot; /&gt;
+&lt;img src=&quot;https://matthewyang.io/assets/originals/hmd/hmd_ny.jpg&quot; alt=&quot;hmd new york&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Getting .mp4 Files with yt-dlp</title>
-   <link href="http://localhost:4000/blog/2023/09/24/yt-dlp-command/"/>
+   <link href="https://matthewyang.io/blog/2023/09/24/yt-dlp-command/"/>
    <updated>2023-09-24T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/09/24/yt-dlp-command</id>
+   <id>https://matthewyang.io/blog/2023/09/24/yt-dlp-command</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/yt-dlp/yt-dlp&quot;&gt;yt-dlp&lt;/a&gt; is an excellent tool for pulling video files off YouTube, however its default file output is .webm.&lt;/p&gt;
 
 &lt;p&gt;The following command will try to pull a native .mp4 file off YouTube and will do necessary transcoding if that fails after downloading.&lt;/p&gt;
@@ -625,25 +625,25 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>Summer Craft Project&#58; U-matic Record Tab Earrings</title>
-   <link href="http://localhost:4000/blog/2023/09/10/umatic_earrings/"/>
+   <link href="https://matthewyang.io/blog/2023/09/10/umatic_earrings/"/>
    <updated>2023-09-10T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/09/10/umatic_earrings</id>
+   <id>https://matthewyang.io/blog/2023/09/10/umatic_earrings</id>
    <content type="html">&lt;p&gt;I got crafty over the summer at the Bay Area Video Coalition (BAVC) and made these U-matic record tab earrings that were inspired by Crystal Sanchez!!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/umatic/umatic_1.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/originals/umatic/umatic_2.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/originals/umatic/umatic_3.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/originals/umatic/umatic_4.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/assets/originals/umatic/umatic_5.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/umatic/umatic_1.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
+&lt;img src=&quot;https://matthewyang.io/assets/originals/umatic/umatic_2.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
+&lt;img src=&quot;https://matthewyang.io/assets/originals/umatic/umatic_3.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
+&lt;img src=&quot;https://matthewyang.io/assets/originals/umatic/umatic_4.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;
+&lt;img src=&quot;https://matthewyang.io/assets/originals/umatic/umatic_5.jpg&quot; alt=&quot;umatic earrings&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Summer 2023 Internships @ BAVC & Prelinger Archives</title>
-   <link href="http://localhost:4000/blog/2023/09/01/summer-2023-internship/"/>
+   <link href="https://matthewyang.io/blog/2023/09/01/summer-2023-internship/"/>
    <updated>2023-09-01T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/09/01/summer-2023-internship</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/summer/matt_bavc.jpeg&quot; alt=&quot;prelinger&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2023/09/01/summer-2023-internship</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/summer/matt_bavc.jpeg&quot; alt=&quot;prelinger&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;During the summer, I had the great opportunity to work in the preservation department at the Bay Area Video Coalition (BAVC) under the guidance of Kelley Coyne and Tim Lake. My main responsibility was digitizing VHS tapes for the Mission Cultural Center for Latino Arts as part of BAVC’s Preservation Access Program (PAP). This program offers affordable preservation services to individuals and smaller organizations with analog audiovisual collections.&lt;/p&gt;
 
@@ -653,7 +653,7 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
 
 &lt;p&gt;Overall, this internship experience has solidified the concepts I learned from the program, and I am excited to delve deeper into video preservation through the Video Preservation course in the upcoming fall semester.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/summer/matt_prelinger.jpeg&quot; alt=&quot;prelinger&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/summer/matt_prelinger.jpeg&quot; alt=&quot;prelinger&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I had the incredible opportunity of doing my summer internship at the Prelinger Archives where I was involved in its ongoing digitization project funded by the Filecoin Foundation. The three-year grant funded project is a collaboration between the Prelinger Archives and the Filecoin Foundation to preserve and create broad access to rare home movies, newsreels, educational, and sponsored films from the Prelinger collection. Throughout the nine-weeks I got to learn its unique digitization workflow from film preparation to creating culturally responsive metadata.&lt;/p&gt;
 
@@ -663,14 +663,14 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>Spring 2023 Internship @ the New York Public Library</title>
-   <link href="http://localhost:4000/blog/2023/06/01/spring-2023-internship/"/>
+   <link href="https://matthewyang.io/blog/2023/06/01/spring-2023-internship/"/>
    <updated>2023-06-01T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2023/06/01/spring-2023-internship</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/nypl/nypl_1.jpeg&quot; alt=&quot;nypl&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2023/06/01/spring-2023-internship</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/nypl/nypl_1.jpeg&quot; alt=&quot;nypl&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Under the guidance of Benjamin Turkus (MIAP’2016), I completed my Spring 2023 internship at the New York Public Library’s Media Preservation Lab. Throughout the semester, I provided preservation care on film outtakes (specifically, Ellis Island and Book of Days) from the Meredith Monk Collection in the Jerome Robbins Dance Division. The internship was structured into several phases, including film preparation and repair, film scanning, quality control, audio digitization, and basic computer programming. This structure allowed me to expand upon my prior knowledge gained through the program and develop technical skills across various disciplines related to audiovisual preservation.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/nypl/nypl_2.jpeg&quot; alt=&quot;nypl&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/nypl/nypl_2.jpeg&quot; alt=&quot;nypl&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In my internship report, I highlighted the key skills I developed, including my ability to effectively use the Lasergraphics ScanStation 6.5K scanner for film scanning. However, what I enjoyed most during my internship was gaining hands-on experience with the library’s quality control process, which involved utilizing in-house Python scripts. To prepare film scans for transcoding, metadata harvesting, and archiving, we followed a specific workflow involving tools such as RAWcooked, FFmpeg, and Rsync.&lt;/p&gt;
 
@@ -680,10 +680,10 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>Use scrcpy to Mirror Android Devices On Your Desktop</title>
-   <link href="http://localhost:4000/blog/2023/01/27/scrcpy/"/>
+   <link href="https://matthewyang.io/blog/2023/01/27/scrcpy/"/>
    <updated>2023-01-27T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2023/01/27/scrcpy</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/scrcpy/scrcpy.gif&quot; alt=&quot;scrcpy demo&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2023/01/27/scrcpy</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/scrcpy/scrcpy.gif&quot; alt=&quot;scrcpy demo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/Genymobile/scrcpy#physical-mouse-simulation-hid&quot; target=&quot;\_ blank&quot;&gt;scrcpy&lt;/a&gt; is a great open source application that “provides display and control of Android devices connected via USB or over TCP/IP.” In other words, one may screen-mirror and control their Android device from their desktop with scrcpy!&lt;/p&gt;
 
@@ -734,9 +734,9 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>Google Analytics for GitHub Pages</title>
-   <link href="http://localhost:4000/blog/2023/01/17/google-analytics-for-github-pages/"/>
+   <link href="https://matthewyang.io/blog/2023/01/17/google-analytics-for-github-pages/"/>
    <updated>2023-01-17T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2023/01/17/google-analytics-for-github-pages</id>
+   <id>https://matthewyang.io/blog/2023/01/17/google-analytics-for-github-pages</id>
    <content type="html">&lt;p&gt;This post covers the set up of Google Analytics for GitHub Pages.&lt;/p&gt;
 
 &lt;p&gt;1. Go to Google Analytics and create a Google Analytics account for the site you would like to track.&lt;/p&gt;
@@ -773,9 +773,9 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>2023 Website Refresh & Update</title>
-   <link href="http://localhost:4000/blog/2023/01/16/new-site/"/>
+   <link href="https://matthewyang.io/blog/2023/01/16/new-site/"/>
    <updated>2023-01-16T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2023/01/16/new-site</id>
+   <id>https://matthewyang.io/blog/2023/01/16/new-site</id>
    <content type="html">&lt;p&gt;Hello&lt;/p&gt;
 
 &lt;p&gt;This site has undergone a noticeable refresh to include a &lt;em&gt;work&lt;/em&gt; page as a reflecion of my renewed commitment towards writing more about my work and learnings gleaned from my graduate studies, which I’ve embarked on since September 2022. 2022 was a productive year of change that took me away from the maintenance of this site, hence the lack of updates. But I intend to correct his by documenting the projects I’ve embarked on and the challenges I’ve faced along the way.&lt;/p&gt;
@@ -788,26 +788,26 @@ Variable Value - C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
  
  <entry>
    <title>Ubiquiti Home Network Part&#58; III</title>
-   <link href="http://localhost:4000/blog/2021/01/31/home-network-part-iii/"/>
+   <link href="https://matthewyang.io/blog/2021/01/31/home-network-part-iii/"/>
    <updated>2021-01-31T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2021/01/31/home-network-part-iii</id>
+   <id>https://matthewyang.io/blog/2021/01/31/home-network-part-iii</id>
    <content type="html">&lt;p&gt;Today marks another major milestone for the Ubiquiti home network with the Fibre Termination Point (TP) finally installed! The OpenNet technicians decided to come two days before our scheduled appointment, but I was more than happy to accommodate to their request. I decided to relocate the TP from the living room to the service balcony to have it close to the network rack. Most households typically have the TP close to the TV consoles as it is common to use the router-modem provided by the ISPs, whom typically are the internet TV providers as well. The relocation involved drilling a new hole from the electrical riser into the kitchen to have a short run of cable straight to the desired location. I was initially quite nervous about the drilling as I didn’t want to puncture any pipes, but thankfully it went fine. All of the work was completed within 40 minutes but I was surprised that the task required a team of five men!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Network_II/open_net_1.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Network_II/open_net_1.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Network_II/open_net_2.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Network_II/open_net_2.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Network_II/open_net_3.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Network_II/open_net_3.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Network_II/open_net_4.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Network_II/open_net_4.jpg&quot; alt=&quot;opennet setup&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Ubiquiti Home Network Part&#58; II</title>
-   <link href="http://localhost:4000/blog/2021/01/20/home-network-part-ii/"/>
+   <link href="https://matthewyang.io/blog/2021/01/20/home-network-part-ii/"/>
    <updated>2021-01-20T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2021/01/20/home-network-part-ii</id>
+   <id>https://matthewyang.io/blog/2021/01/20/home-network-part-ii</id>
    <content type="html">&lt;p&gt;This post is all about setting up my Ubiquiti home network and will serve as a personal resource/journal for the various devices.&lt;/p&gt;
 
 &lt;h2 id=&quot;edgerouter-x-er-x-router-set-up&quot;&gt;EdgeRouter X (ER-X) router set up&lt;/h2&gt;
@@ -928,9 +928,9 @@ One Lan: &lt;em&gt;check&lt;/em&gt;&lt;/p&gt;
  
  <entry>
    <title>The Anatomy of a Digital File</title>
-   <link href="http://localhost:4000/blog/2021/01/15/digital-file/"/>
+   <link href="https://matthewyang.io/blog/2021/01/15/digital-file/"/>
    <updated>2021-01-15T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2021/01/15/digital-file</id>
+   <id>https://matthewyang.io/blog/2021/01/15/digital-file</id>
    <content type="html">&lt;p&gt;I’ve always wondered what makes up a digital file and &lt;a href=&quot;https://twobitpreservation.com/&quot; target=&quot;\_ blank&quot;&gt;Nicole Martin&lt;/a&gt; has wonderfully written a detailed post about the zeros and ones that make up a digital file.&lt;/p&gt;
 
 &lt;p&gt;I’ll briefly lay out the keys points from the post.&lt;/p&gt;
@@ -975,15 +975,15 @@ One Lan: &lt;em&gt;check&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The last section of code that signals the end of the package.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Digital_File/Anatomy.jpg&quot; alt=&quot;Folder Structure&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Digital_File/Anatomy.jpg&quot; alt=&quot;Folder Structure&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Managing Film Scans With FFmpeg</title>
-   <link href="http://localhost:4000/blog/2020/11/13/play-scans/"/>
+   <link href="https://matthewyang.io/blog/2020/11/13/play-scans/"/>
    <updated>2020-11-13T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2020/11/13/play-scans</id>
+   <id>https://matthewyang.io/blog/2020/11/13/play-scans</id>
    <content type="html">&lt;p&gt;I have been trying to figure the best way to play and manage film scans and learned a bag of new tricks from &lt;a href=&quot;https://reto.ch/&quot; target=&quot;\_ blank&quot;&gt;reto.ch&lt;/a&gt;!&lt;/p&gt;
 
 &lt;h2 id=&quot;playing-a-dpx-sequence&quot;&gt;Playing a DPX sequence&lt;/h2&gt;
@@ -1055,9 +1055,9 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
  
  <entry>
    <title>Practical Tips&#58; Caring For Your Files and Data</title>
-   <link href="http://localhost:4000/blog/2020/11/05/practical-tips/"/>
+   <link href="https://matthewyang.io/blog/2020/11/05/practical-tips/"/>
    <updated>2020-11-05T00:00:00-06:00</updated>
-   <id>http://localhost:4000/blog/2020/11/05/practical-tips</id>
+   <id>https://matthewyang.io/blog/2020/11/05/practical-tips</id>
    <content type="html">&lt;p&gt;Managing digital data has become increasingly challenging and can be a daunting experience with the sheer volume of what can build up in a short period. Digital data is vulnerable and can be easily lost if not properly cared for. Hard drives fail, files get plagued by bit-rot, or it can get deleted by accident. Data loss is painful, and recovery (if even possible) is an expensive and stressful process. With the advancement of born-digital filmmaking technologies, we are generating more data than ever before and this poses a huge risk to the loss of our films if we do not start taking steps to care for the physical longevity of a work as it is being created.&lt;/p&gt;
 
 &lt;p&gt;In the film archive, many of the titles we receive in born-digital formats require our staff hours to sieve through and sort out the clutter. This is usually because the data is not properly organised or lacks sufficient documentation (for instance, poor file-naming conventions) making it difficult to know what is being filed.&lt;/p&gt;
@@ -1094,7 +1094,7 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
 
 &lt;p&gt;This is an example of how files can be organised and structured:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Practical_tips/Folder_Structure_Example.png&quot; alt=&quot;Folder Structure&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Practical_tips/Folder_Structure_Example.png&quot; alt=&quot;Folder Structure&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;find it useful to first determine the top-level folder. I used [YEAR] in this example, and branch into sub-directories by [CATEGORY]. In the screenshot above, we see Year 2020 and the categories are AFA Work, External Projects and Personal Documents. The later directories might be projects/events based but try to keep them as consistent as possible.&lt;/p&gt;
 
@@ -1146,7 +1146,7 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
 
 &lt;p&gt;Descriptive file names are imperative to quick identification and retrieval of files. Poor naming conventions are frustrating and wastes a lot of time since they do not give useful information (“Best practices for file naming”, 2020).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Practical_tips/Naming_Convention_Example.png&quot; alt=&quot;File Naming Convention&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Practical_tips/Naming_Convention_Example.png&quot; alt=&quot;File Naming Convention&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A guiding principle for filenames is to include basic information such as object type, dates, and important remarks. These indicators can be crucial in distinguishing one file from another in the event that there are multiple variations of a given file. In essence, an effective file name should tell you what the file is without you having to open it (Antin, 2020).&lt;/p&gt;
 
@@ -1203,7 +1203,7 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The 3-2-1 strategy&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Practical_tips/Diagram-1440x1018.png&quot; alt=&quot;3-2-1 Diagram&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Practical_tips/Diagram-1440x1018.png&quot; alt=&quot;3-2-1 Diagram&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Keep 3 copies of your data&lt;/strong&gt;&lt;/p&gt;
 
@@ -1290,9 +1290,9 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
  
  <entry>
    <title>Creating a List of Files of a Directory With Command-line</title>
-   <link href="http://localhost:4000/blog/2020/10/12/exporting-directories-cli/"/>
+   <link href="https://matthewyang.io/blog/2020/10/12/exporting-directories-cli/"/>
    <updated>2020-10-12T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2020/10/12/exporting-directories-cli</id>
+   <id>https://matthewyang.io/blog/2020/10/12/exporting-directories-cli</id>
    <content type="html">&lt;p&gt;I recently had to provide a list of files in a USB thumbdrive/stick and learned a sweet trick via CLI. This method provides a text, &lt;em&gt;Word&lt;/em&gt; or &lt;em&gt;Excel&lt;/em&gt; file that lists all the files and folders inside a specific directory within your computer.&lt;/p&gt;
 
 &lt;h2 id=&quot;basic-command-structure&quot;&gt;Basic command structure&lt;/h2&gt;
@@ -1344,10 +1344,10 @@ _ padding the 4:3 format into the 16:9 HD format with pillar box&lt;/p&gt;
  
  <entry>
    <title>Understanding the YUV (YCbCr) Colour Encoding System</title>
-   <link href="http://localhost:4000/blog/2020/10/11/understanding-yuv/"/>
+   <link href="https://matthewyang.io/blog/2020/10/11/understanding-yuv/"/>
    <updated>2020-10-11T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2020/10/11/understanding-yuv</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/YUV/YUV.png&quot; alt=&quot;YUV chart&quot; /&gt;&lt;/p&gt;
+   <id>https://matthewyang.io/blog/2020/10/11/understanding-yuv</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/YUV/YUV.png&quot; alt=&quot;YUV chart&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-yuv&quot;&gt;What is YUV?&lt;/h2&gt;
 
@@ -1382,9 +1382,9 @@ Specifically the Red&lt;/p&gt;
  
  <entry>
    <title>Ubiquiti Home Network Part&#58; I</title>
-   <link href="http://localhost:4000/blog/2020/09/14/home-network-part-i/"/>
+   <link href="https://matthewyang.io/blog/2020/09/14/home-network-part-i/"/>
    <updated>2020-09-14T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2020/09/14/home-network-part-i</id>
+   <id>https://matthewyang.io/blog/2020/09/14/home-network-part-i</id>
    <content type="html">&lt;p&gt;This post will be part of a series documenting the network setup of my new apartment. The apartment is over 20 years old hence a major overhaul is required and the renovation is a great opportunity to lay CAT6A in the house for the 1Gbps/10Gbps network 🤓.&lt;/p&gt;
 
 &lt;p&gt;My research began with &lt;a href=&quot;https://www.patnotebook.com/bto-networking-singapore/&quot; target=&quot;_ blank&quot;&gt;this&lt;/a&gt; article on &lt;a href=&quot;https://patnotebook.com&quot; target=&quot;_ blank&quot;&gt;patnotebook.com&lt;/a&gt; detailing the conversion of telephone points to RJ45 data points in newer BTO (Build to Order) flats in Singapore. Newer flats in Singapore have CAT6 cables already nicely laid in the house, however many of the points are terminated with a telephone jack instead of RJ45. Based on the article, it seems that BTO flats only have one point terminated as RJ45, which is definitely not enough 😁.&lt;/p&gt;
@@ -1408,11 +1408,11 @@ Specifically the Red&lt;/p&gt;
 
 &lt;h2 id=&quot;the-electrical-layout&quot;&gt;The electrical layout&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Network_I/electrical_plan_v2.png&quot; alt=&quot;House electrical layout&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Network_I/electrical_plan_v2.png&quot; alt=&quot;House electrical layout&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;the-hardware-diagram-and-breakdown&quot;&gt;The hardware diagram and breakdown&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/Network_I/Network_diagram.jpg&quot; alt=&quot;Network diagram&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://matthewyang.io/assets/originals/Network_I/Network_diagram.jpg&quot; alt=&quot;Network diagram&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://catalog.belden.com/techdata/EN/10GXE02_techdata.pdf&quot; target=&quot;\_ blank&quot;&gt;Belden CAT6A 10GXE02&lt;/a&gt;&lt;/li&gt;
@@ -1428,9 +1428,9 @@ Specifically the Red&lt;/p&gt;
  
  <entry>
    <title>Hello World!</title>
-   <link href="http://localhost:4000/blog/2020/07/08/first-post/"/>
+   <link href="https://matthewyang.io/blog/2020/07/08/first-post/"/>
    <updated>2020-07-08T00:00:00-05:00</updated>
-   <id>http://localhost:4000/blog/2020/07/08/first-post</id>
+   <id>https://matthewyang.io/blog/2020/07/08/first-post</id>
    <content type="html">&lt;p&gt;The website is &lt;em&gt;finally&lt;/em&gt; up and here is my first post!&lt;/p&gt;
 
 &lt;p&gt;I’ve been meaning to create a work site for awhile now and I’ve finally taken up the challenge after attending GA’s Intro to Coding: HTML &amp;amp; CSS Workshop. It was a short webinar that covered the fundamentals, which taught me enough to take the plunge.&lt;/p&gt;
