@@ -6,28 +6,28 @@ title: work
 <h4>employment</h4>
 <br>
 
-| University of Chicago | Digital Preservation Specialist | Jul. 2025 - present |
-| City University of New York Television (CUNY TV) | Media Preservation Technician | Jun. 2024 - Aug. 2024 |
-| Asian Film Archive | Archive Officer | Jan. 2017 - Aug. 2022 |
+| University of Chicago | Digital Preservation Specialist | 7/2025 - present |
+| City University of New York Television (CUNY TV) | Media Preservation Technician | 6/2024 - 8/2024 |
+| Asian Film Archive | Archive Officer | 1/2017 - 8/2022 |
 
 <br>
 <h4>fellowships</h4>
 <br>
 
-| J. Paul Getty Trust (Getty Digital) | Collection & Content Management Systems Graduate Intern | Sep. 2024 - Jun. 2025 |
-| Digital Preservation Outreach and Education Network (DPOE-N) | Research Fellow | Sep. 2022 - May 2024 |
+| J. Paul Getty Trust (Getty Digital) | Collection & Content Management Systems Graduate Intern | 9/2024 - 6/2025 |
+| Digital Preservation Outreach and Education Network (DPOE-N) | Research Fellow | 9/2022 - 5/2024 |
 
 <br>
 <h4>internships</h4>
 <br>
 
-| Internet Archive | Software Engineering Intern | Jun. 2024 - Jul. 2025 |
-| City University of New York Television (CUNY TV) | Audio Preservation Intern | Jan. 2024 - Jun. 2024 |
-| Cineric Inc. | Digital Restoration Intern | Sep. 2023 - Jan. 2024 |
-| Bay Area Video Coalition | Video Preservation Intern | Jun. 2023 - Aug. 2023 |
-| Prelinger Archives | Media Digitization Intern | Jun. 2023 - Aug. 2023 |
-| New York Public Library | Media Preservation Intern | Jan. 2023 - May. 2023 |
-| Olympic Broadcasting Services | Broadcast Intern | Jul. 2010 - Sep. 2010 |
+| Internet Archive | Software Engineering Intern | 6/2024 - 7/2025 |
+| City University of New York Television (CUNY TV) | Audio Preservation Intern | 1/2024 - 6/2024 |
+| Cineric Inc. | Digital Restoration Intern | 9/2023 - 1/2024 |
+| Bay Area Video Coalition | Video Preservation Intern | 6/2023 - 8/2023 |
+| Prelinger Archives | Media Digitization Intern | 6/2023 - 8/2023 |
+| New York Public Library | Media Preservation Intern | 1/2023 - 5/2023 |
+| Olympic Broadcasting Services | Broadcast Intern | 7/2010 - 9/2010 |
 
 <br>
 <h4>open-source projects</h4>
