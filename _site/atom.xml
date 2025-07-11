@@ -4,7 +4,7 @@
  <title>Matthew Yang | Digital & Media Preservationist</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2025-07-10T20:06:15-05:00</updated>
+ <updated>2025-07-10T20:07:29-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Matthew Yang</name>
@@ -19,7 +19,7 @@
    <id>http://localhost:4000/blog/2025/07/10/dark-mode-ii</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/originals/darkmode_ii/darkmode_ii.gif&quot; alt=&quot;darkmode_fouc&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As it turns out, the implementation of the site’s dark mode was plagued by a Flash of Unstyled Content (FOUC). As illustrated, light mode would flash during navigation between pages while in dark mode—yuck.&lt;/p&gt;
+&lt;p&gt;As it turns out, the implementation of the site’s dark mode was plagued by a Flash of Unstyled Content (FOUC). As illustrated, light mode would flash during navigation between pages while in dark mode. Yuck.&lt;/p&gt;
 
 &lt;p&gt;The issue lies in the fact that the dark mode class is applied to &amp;lt;body&amp;gt; only after the page fully loads. As a result, the browser renders the default light theme in the brief moment between page load and the execution of the dark mode script.&lt;/p&gt;
 
