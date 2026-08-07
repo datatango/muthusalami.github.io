@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
-import { remarkBaseUrl } from "./remark-base-url.mjs";
+import { unified } from "@astrojs/markdown-remark";
 import rehypeExternalLinks from "rehype-external-links";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
@@ -15,11 +15,15 @@ export default defineConfig({
   build: {
     inlineStylesheets: "always",
   },
-markdown: {
-    remarkPlugins: [[remarkBaseUrl, ""]],
-    rehypePlugins: [
-      [rehypeExternalLinks, { target: "_blank", rel: ["noopener", "noreferrer"] }]
-    ],
+  markdown: {
+    processor: unified({
+      rehypePlugins: [
+        [
+          rehypeExternalLinks,
+          { target: "_blank", rel: ["noopener", "noreferrer"] },
+        ],
+      ],
+    }),
   },
   vite: {
     plugins: [tailwindcss()],

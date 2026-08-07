@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    # one grouped PR a week instead of a PR per package
+    groups:
+      npm:
+        patterns: ["*"]
