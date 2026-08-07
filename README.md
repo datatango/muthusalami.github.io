@@ -1,43 +1,38 @@
-# Astro Starter Kit: Minimal
+# matthewyang.io
+
+Personal site. Astro, static output, deployed to GitHub Pages at
+[www.matthewyang.io](https://www.matthewyang.io).
+
+## Develop
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run dev      # localhost:4321
+npm run build    # static build to dist/
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Writing a post
 
-## 🚀 Project Structure
+Add a Markdown file to `src/content/writing/`, named for its date. The route
+comes from the filename, so `2026-05-14.md` publishes at `/writing/2026-05-14`.
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```md
+---
+title: "What I Learnt About SSH by Fixing My Own Broken Setup"
+date: "2026-05-07"
+description: "Learning and unlearning SSH configuration"
+---
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+`description` is optional; `title` and `date` are not. Work entries live in
+`src/content/work/` and additionally require a `hero` image path. Both schemas
+are defined in `src/content.config.ts`.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Deploying
 
-Any static assets, like images, can be placed in the `public/` directory.
+Pushing to `main` builds and deploys via `.github/workflows/deploy.yml`. Pull
+requests run the same build without deploying, and `main` requires that build to
+pass before merging.
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Dependabot opens one grouped npm PR a week. Merge it once the build check is
+green.
