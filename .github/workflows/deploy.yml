@@ -23,7 +23,6 @@ jobs:
         with:
           node-version: 24
       - run: npm ci
-      - run: npm install sharp
       - run: npm run build
         env:
           PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.PUBLIC_GA_MEASUREMENT_ID }}

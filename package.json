@@ -23,8 +23,6 @@
     "astro": "^7.2.0",
     "astro-icon": "^1.1.5",
     "geist": "^1.5.1",
-    "node-addon-api": "^8.7.0",
-    "node-gyp": "^12.2.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "rehype-external-links": "^3.0.0",
