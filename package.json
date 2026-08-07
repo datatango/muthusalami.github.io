@@ -19,7 +19,7 @@
     "@tailwindcss/vite": "^4.1.18",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "astro": "^7.0.9",
+    "astro": "^7.2.0",
     "astro-icon": "^1.1.5",
     "geist": "^1.5.1",
     "node-addon-api": "^8.7.0",
