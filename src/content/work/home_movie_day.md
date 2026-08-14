@@ -5,7 +5,7 @@ description: Organizing the first Home Movie Day event in Singapore
 hero: "home_movie_day/hero.png"
 ---
 
-![hmd](/work/hmd/hmd.png)
+![hmd](/work/home_movie_day/hero.png)
 
 In 2022, I organized Singapore’s first Home Movie Day with the generous support of Momo Film Co., alongside a generous community of collaborators and friends (listed below).
 
