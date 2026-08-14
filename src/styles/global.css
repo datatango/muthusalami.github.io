@@ -27,6 +27,18 @@
 
 @theme {
   --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+
+  /* type scale from mat.digital: Radix Themes steps, unscaled */
+  --text-fine: 12px;
+  --text-fine--line-height: 16px;
+  --text-meta: 14px;
+  --text-meta--line-height: 20px;
+  --text-body: 16px;
+  --text-body--line-height: 1.7;
+  --text-title: 20px;
+  --text-title--line-height: 26px;
+  --text-heading: 24px;
+  --text-heading--line-height: 30px;
 }
 
 body {
@@ -34,11 +46,19 @@ body {
   font-weight: 300;
 }
 
+/* the browser default focus ring is a dark blue that all but disappears on
+   this background */
+:focus-visible {
+  outline: 2px solid rgb(228 228 231);
+  outline-offset: 2px;
+}
+
 .prose {
   font-family: var(--font-sans);
   font-weight: 300;
   color: rgb(228 228 231);
-  line-height: 1.75;
+  font-size: var(--text-body);
+  line-height: 1.7;
 }
 
 .prose h1,
@@ -46,7 +66,18 @@ body {
 .prose h3,
 .prose h4 {
   color: rgb(244 244 245);
-  font-weight: 500;
+  font-weight: 700;
+}
+
+/* paragraph gap sized to the looser leading, matching the landing page */
+.prose :where(p) {
+  margin-block: 1.5em;
+}
+
+/* the typography plugin weights prose links at 500, which reads heavier than
+   the same link on the landing page; keep both at the body weight */
+.prose :where(a) {
+  font-weight: inherit;
 }
 
 .prose iframe {
