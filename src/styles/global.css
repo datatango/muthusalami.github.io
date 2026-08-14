@@ -46,6 +46,12 @@ body {
   font-weight: 300;
 }
 
+/* trailing paragraph margins would otherwise add to the footer's own spacing */
+main > :last-child,
+main .prose > :last-child {
+  margin-bottom: 0;
+}
+
 /* the browser default focus ring is a dark blue that all but disappears on
    this background */
 :focus-visible {
