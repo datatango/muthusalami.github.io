@@ -25,6 +25,14 @@
   src: url("/fonts/Geist-Medium.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/Geist-SemiBold.woff2") format("woff2");
+}
+
 @theme {
   --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
 
@@ -72,7 +80,7 @@ main .prose > :last-child {
 .prose h3,
 .prose h4 {
   color: rgb(244 244 245);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* paragraph gap sized to the looser leading, matching the landing page */
