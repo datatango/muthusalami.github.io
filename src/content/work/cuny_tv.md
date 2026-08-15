@@ -1,5 +1,5 @@
 ---
-title: Himan Brown at CUNY TV
+title: Himan Brown Radio Dramas
 date: "2024-08-23"
 description: Building an automated restoration and packaging workflow for the Himan Brown transcription disc collection
 hero: "cuny/hero.png"
